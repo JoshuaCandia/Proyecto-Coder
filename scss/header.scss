@@ -1,12 +1,18 @@
-.nav-item{
-    a{
+.nav-item {
+    a {
         font-size: 30px;
         color: black;
     }
 }
-.logo__header{
-    width: 250px;
+
+.logo__header {
+    width: 200px;
 }
-.navbar-nav{
-    justify-content: end;
+.navbar-brand {
+    margin-left: 5%;
+}
+
+
+.nav-item {
+    margin-right: 50px;
 }

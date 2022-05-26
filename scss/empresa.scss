@@ -2,7 +2,7 @@
 .grid__container__empresa {
     display: grid;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     grid-template-areas: 'header header'
         'main aside'
         'footer footer';
