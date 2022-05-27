@@ -8,14 +8,14 @@
 @import "contacto";
 @import "aside";
 @import "servicios";
+@import "productos";
 
 body {
     background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-body
 
-.grid-container-index {
+body .grid-container-index {
     width: 100%;
     height: 100vh;
     display: grid;
@@ -28,7 +28,7 @@ body
 
 .header__index {
     grid-area: header;
-    } 
+}
 
 .main-index {
     grid-area: main;
@@ -214,11 +214,13 @@ body
     /*Main Productos query*/
     .main__productos {
         grid-area: main;
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
     }
 
-    .main__productos h1 {
-        text-align: center;
-    }
 
     .main__section__productos {
         display: grid;
@@ -312,4 +314,3 @@ body
     }
 
 }
-
