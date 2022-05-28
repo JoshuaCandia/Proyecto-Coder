@@ -40,13 +40,6 @@
         margin-top: 50px;
     }
 
-    .main__section__div__empresa p {
-        color: white;
-        font-size: 40px;
-        margin-top: 22%;
-        margin-right: 2%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
 
     .main__p {
         margin-top: 50px;
@@ -108,51 +101,8 @@
     }
 }
 
-/*Aside Empresa */
-.div__aside__empresa {
-    padding-left: 60px;
-    margin-left: 40%;
-    margin-top: 40px;
-    text-align: center;
-    border-radius: 10px;
-    height: 70%;
-    width: 25%;
-    background-color: #2079b0;
 
 
-    .aside__empresa {
-        grid-area: aside;
-
-
-        h2 {
-            color: white;
-        }
-
-        ul {
-            list-style: none;
-            padding-inline-start: 0;
-
-
-            li {
-                padding-top: 3rem;
-                text-align: start;
-
-
-                a {
-                    text-decoration: none;
-                    color: white;
-                }
-            }
-        }
-
-        .div__icons__empresa {
-            display: flex;
-            margin-top: 40px;
-            justify-content: flex-start;
-            gap: 30px;
-        }
-    }
-}
 
 /*Footer Empresa */
 .footer-empresa {
@@ -177,7 +127,7 @@
     .main__empresa {
         display: flex;
         grid-area: main;
-        width: 100vh;
+        width: 100%;
         height: 60%;
     }
 
@@ -187,7 +137,7 @@
 
     .main__section__div__empresa {
         border: 2px solid black;
-        height: 20vh;
+        height: 30vh;
         width: 100%;
         background-image: url(/images/index2.jpeg);
         background-repeat: no-repeat;
@@ -199,9 +149,11 @@
 
     .main__section__div__empresa p {
         font-size: 25px;
-        margin-top: 40%;
+        margin-top: 22%;
         margin-right: 2%;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+      
     }
 
     .main__p {
@@ -258,168 +210,5 @@
 
     .div__parrafo-2 {
         border-left: rgba(255, 0, 0, 0.644) 5px solid;
-        border-top-left-radius: 20px;
+        border-top-left-radius: 20px;}
     }
-
-    /*Aside Empresa query*/
-    .aside__empresa {
-        grid-area: aside;
-    }
-
-    .div__aside__empresa {
-        margin-left: 20%;
-        margin-top: 40px;
-        text-align: start;
-        background-color: #2079b0;
-        border-radius: 10px;
-        height: 40%;
-        width: 55%;
-
-    }
-
-    .icon__aside {
-        width: 20px;
-    }
-
-    .div__aside__empresa__ul {
-        list-style: none;
-        padding: 5px;
-        margin: 0;
-    }
-
-    .div__aside__empresa__ul__li {
-        padding-top: 3rem;
-        margin-right: 20px;
-    }
-
-    .div__aside__empresa__ul__li__a {
-        text-decoration: none;
-        color: white;
-    }
-
-    .div__icons__empresa {
-        display: flex;
-        margin-top: 40px;
-        padding: 0;
-        gap: 5px;
-
-
-    }
-
-    /*Footer Empresa query*/
-    .footer-index {
-        grid-area: footer;
-
-    }
-}
-
-/*Styles Productos*/
-.grid__container__productos {
-    display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-areas: 'header header header'
-        'main main aside'
-        'footer footer footer';
-    grid-template-columns: 40% 30% 30%;
-    grid-template-rows: auto auto auto;
-}
-
-/*Main Productos*/
-.main__productos {
-    margin-left: 5%;
-    grid-area: main;
-}
-
-.main__section__productos {
-    display: grid;
-    grid-template-areas: "div1 div2 div3"
-        "div4 div5 div6"
-        "div7 div8 div9";
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 33% 33% 33%;
-}
-
-.main__productos h1 {
-    text-align: center;
-}
-
-.main__section__productos__div {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    text-align: center;
-    font-size: 10px;
-    justify-content: center;
-    align-items: center;
-    margin: 5px;
-    border: 1px solid white;
-}
-
-
-.button_productos {
-    width: 70px;
-    height: 25px;
-    background-color: transparent;
-    border: 2px solid white;
-}
-
-.div__p__button {
-    display: flex;
-    gap: 10px;
-    margin-top: 10px;
-}
-
-.div__p__button p {
-    font-size: 12px;
-}
-
-/*Aside productos */
-.aside__empresa {
-    grid-area: aside;
-}
-
-.div__aside__productos {
-    margin-left: 30%;
-    margin-top: 20%;
-    text-align: center;
-    height: 70%;
-    width: 40%;
-    background-color: #2079b0;
-    text-align: start;
-    padding-left: 30px;
-
-}
-
-.div__aside__productos h2 {
-    text-align: center;
-    color: white;
-}
-
-.icon__aside {
-    width: 25px;
-}
-
-.div__aside__productos__ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.div__aside__productos__ul__li {
-    padding-top: 5rem;
-    margin-right: 10px;
-}
-
-.div__aside__productos__ul__li__a {
-    text-decoration: none;
-    color: white;
-}
-
-.div__icons__productos {
-    display: flex;
-    margin-top: 40px;
-    gap: 25px;
-    padding-left: 40px;
-}

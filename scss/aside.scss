@@ -41,26 +41,76 @@
         display: flex;
         justify-content: space-around;
 
+
+    }
+
+    .icon__aside {
+        width: 50px;
+    }
+
+
+}
+
+
+
+@media (max-width: 700px) {
+
+    /*Aside Empresa query*/
+    .aside {
+        grid-area: aside;
+    }
+
+    .div__aside {
+        margin-left: 20%;
+        margin-top: 40px;
+        text-align: start;
+        background-color: transparent;
+        border-radius: 10px;
+        height: 100%;
+        width: 75%;
+
+
+
+        .div__icons {
+            padding-top: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+
+        }
+
         .icon__aside {
-            width: 50px;
+            width: 30px;
         }
 
     }
-       
-    
-}
- /*iframe contacto query*/
- .iframe {
-    width: 400px;
-    height: 200px;
-    margin-left: 8%;
 
-    /*Footer Contacto*/
-}
 
-.footer-contacto {
-    grid-area: footer;
-    margin-top: 10%;
-    margin-left: 4%;
-}
 
+    .div__aside__ul {
+        font-size: 10px;
+        list-style: none;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .div__aside__ul__li {
+        padding-top: 3rem;
+        margin-right: 20px;
+    }
+
+    .div__aside__ul__li__a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .div__icons {
+        display: flex;
+        margin-top: 40px;
+        padding: 0;
+        gap: 5px;
+
+
+    }
+}

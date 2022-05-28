@@ -66,48 +66,7 @@
     filter: opacity(.7);
 }
 
-/*Aside Servicios*/
-.div__aside__servicios {
-    grid-area: aside;
-}
 
-.aside__servicios {
-    margin-left: 15%;
-    margin-top: 3%;
-    border: 2px solid #CCCCCC;
-    padding: 10px;
-    border-radius: 10px;
-    height: 100%;
-    width: 40%;
-    background-color: transparent;
-}
-
-.aside__servicios h2 {
-    text-align: center;
-    color: white;
-}
-
-.div__aside__servicios__ul {
-    padding-inline-start: 15px;
-}
-
-.div__aside__servicios__ul__li {
-    list-style: none;
-    padding-top: 30%;
-}
-
-.div__aside__servicios__ul__li__a {
-    text-decoration: none;
-    color: white;
-}
-
-.div__icons__servicios {
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-    gap: 20%;
-    padding: 0;
-}
 
 /*Section servicios query*/
 @media (max-width: 700px) {
@@ -151,33 +110,5 @@
         border: 1px solid aqua;
         padding: 25px;
         border-radius: 6px;
-    }
-
-    /*Aside Servicios query*/
-    .div__aside__servicios {
-        grid-area: aside;
-    }
-
-    .aside__servicios {
-        margin-right: 10%;
-        text-align: start;
-    }
-
-    .aside__servicios h2 {
-        text-align: center;
-        color: white;
-    }
-
-    .div__aside__servicios__ul {
-        padding-inline-start: 1px;
-    }
-
-
-    .div__icons__servicios {
-        display: flex;
-        margin-top: 40px;
-        justify-content: center;
-        gap: 20%;
-        padding: 0;
     }
 }
