@@ -7812,6 +7812,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+.header__index {
+  margin-bottom: 5%; }
+
 .nav-item a {
   font-size: 30px;
   color: black; }
@@ -7855,8 +7858,13 @@ textarea.form-control-lg {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    text-align: right;
-    margin-top: 50px; }
+    justify-content: end;
+    align-items: flex-end;
+    display: flex;
+    padding-right: 10px; }
+    .main__empresa .main__section__div__empresa p {
+      color: white;
+      font-size: 20px; }
   .main__empresa .main__p {
     margin-top: 50px;
     width: 100%;
@@ -7870,20 +7878,30 @@ textarea.form-control-lg {
     gap: 30%;
     margin-top: 40px;
     margin-bottom: 40px; }
-  .main__empresa .main__section__empresa h3, .main__empresa .main__section__empresa .h3 {
-    color: white;
-    text-align: center; }
-  .main__empresa .main__section__empresa-2 button {
-    height: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 10px;
-    background-color: #FFFFFF;
-    border-radius: 5%;
-    cursor: pointer; }
-  .main__empresa .main__section__empresa-2 a {
+    .main__empresa .main__section__empresa-2 .button__empresa {
+      height: 50px;
+      padding-left: 50px;
+      padding-right: 50px;
+      margin-top: 10px;
+      background-color: transparent;
+      border-radius: 5%;
+      cursor: pointer; }
+      .main__empresa .main__section__empresa-2 .button__empresa a {
+        text-decoration: none;
+        color: white; }
+    .main__empresa .main__section__empresa-2 h3, .main__empresa .main__section__empresa-2 .h3 {
+      color: white;
+      text-align: center; }
+  .main__empresa .button__empresa:hover {
+    background: #2079b0;
+    background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
     text-decoration: none;
-    color: #222222; }
+    filter: opacity(0.7);
+    cursor: pointer; }
   .main__empresa .main__section__div__parrafos {
     display: flex;
     width: 100%;
@@ -7988,7 +8006,8 @@ textarea.form-control-lg {
 
 /*Header Contacto*/
 .header__contacto {
-  grid-area: "header"; }
+  grid-area: "header";
+  margin-bottom: 7%; }
 
 /*Main Contacto*/
 .div__imagenPrincipal {
@@ -8175,6 +8194,37 @@ textarea.form-control-lg {
     padding: 0;
     gap: 5px; } }
 
+/*Aside Servicios*/
+.div__aside__servicios {
+  margin-left: 15%;
+  margin-top: 3%;
+  border: 2px solid #CCCCCC;
+  padding: 10px;
+  border-radius: 10px;
+  height: 59%;
+  width: 40%;
+  background-color: transparent; }
+  .div__aside__servicios h2, .div__aside__servicios .h2 {
+    text-align: center;
+    color: white; }
+  .div__aside__servicios .div__aside__ul {
+    list-style: none;
+    padding: 0;
+    font-size: 25px;
+    text-align: start; }
+  .div__aside__servicios .div__aside__ul__li {
+    padding-top: 5rem;
+    list-style: none; }
+  .div__aside__servicios .div__aside__ul__li__a {
+    text-decoration: none;
+    color: white; }
+  .div__aside__servicios .div__icons {
+    padding-top: 30%;
+    display: flex;
+    justify-content: space-around; }
+  .div__aside__servicios .icon__aside {
+    width: 50px; }
+
 /*Seccion Servicios*/
 .grid__container__servicios {
   display: grid;
@@ -8184,14 +8234,14 @@ textarea.form-control-lg {
 
 .main__servicios {
   grid-area: main;
-  margin-left: 10%;
+  margin-left: 5%;
   width: 100%; }
 
 /*Main servicios*/
 .div__titulo {
   display: flex;
-  border: 1px solid black;
-  width: 60%;
+  border: 2px solid white;
+  width: 70%;
   height: 30vh;
   background-image: url(../images/contacto.jpg);
   background-repeat: no-repeat;
@@ -8218,9 +8268,11 @@ textarea.form-control-lg {
   height: 15%;
   background: transparent;
   color: white;
-  border: 1px solid aqua;
+  border: 1px solid black;
   padding: 20px;
-  border-radius: 6px; }
+  border-radius: 6px;
+  margin-top: 3%;
+  margin-bottom: 7%; }
 
 .button__presupuesto:hover {
   background: #2079b0;
@@ -8231,6 +8283,12 @@ textarea.form-control-lg {
   background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
   text-decoration: none;
   filter: opacity(0.7); }
+
+.footer__servicios {
+  grid-area: footer;
+  margin-top: 5%; }
+  .footer__servicios p {
+    margin-left: 50px; }
 
 /*Section servicios query*/
 @media (max-width: 700px) {
