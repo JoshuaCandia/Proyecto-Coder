@@ -1,3 +1,7 @@
+.container__contacto{
+    width: 100%;
+    height: 100%;
+}
 /*Seccion Contacto*/
 .grid__container__contacto {
     display: grid;
@@ -78,6 +82,20 @@
     cursor: pointer;
 }
 
+  /*iframe contacto*/
+  .iframe__contacto {
+    width: 700px;
+    height: 300px;
+    margin-left: 8%;
+
+    /*Footer Contacto*/
+}
+
+.footer-contacto {
+    grid-area: footer;
+    margin-top: 10%;
+    margin-left: 2%;
+}
 
 
 
