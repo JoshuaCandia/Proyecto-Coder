@@ -1,0 +1,22 @@
+.loader__png {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: white;
+    clip-path: circle(150% at 100% 0);
+    transition: clip-path 3s ease-in;
+    z-index: 10000;
+    img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 50%;
+        margin: auto;
+    }
+}
+
+.loader__png2 {
+    clip-path: circle(0% at 50% 50%);
+    
+}

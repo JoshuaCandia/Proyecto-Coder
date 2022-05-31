@@ -13,9 +13,19 @@
 </head>
 
 <body>
+    <!--Loader-->
+  <div class="loader__png" id="loader">
+    <img src="/assets/flame-4.gif" alt="loader Flame">
+  </div>
+
+
   <div class="grid-container-index">
+    <!--Header index-->
     <header class="header__index">
-      <nav class="navbar navbar-expand-lg fixed-top "style="background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);">
+
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg sticky-top "
+        style="background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img class="logo__header" src="./images/logo.png" alt="Logo"></a>
           <div class="d-flex flex-row-reverse">
@@ -45,7 +55,10 @@
             </div>
           </div>
       </nav>
+
     </header>
+
+    <!--Main index-->
     <main class="main-index">
       <h3>Los Matafuegos No Son Todos Iguales</h3>
       <div class="div__button">
@@ -54,17 +67,23 @@
         </a>
       </div>
     </main>
+
+    <!--Aside Index-->
     <aside class="aside-index">
       <img src="/images/homer.png" alt="">
     </aside>
+
+    <!--Footer Index-->
     <footer class="footer-index">
       <p>Copyright © Todos los derechos reservados</p>
     </footer>
 
   </div>
+  <!--Scripts-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
+  <script src="/loader/main.js"></script>
 </body>
 
 </html>
