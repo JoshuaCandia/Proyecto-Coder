@@ -8011,12 +8011,12 @@ textarea.form-control-lg {
 
 /*Main Contacto*/
 .div__imagenPrincipal {
-  margin-left: 18%;
+  margin-left: 8%;
   margin-top: 2%;
   display: flex;
-  border: 1px solid black;
-  width: 60%;
-  height: 20%;
+  border: 2px solid white;
+  width: 70%;
+  height: 27vh;
   background-image: url(/images/index3.jpeg);
   background-position: center;
   justify-content: flex-end;
