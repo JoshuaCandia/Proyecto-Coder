@@ -7903,11 +7903,12 @@ textarea.form-control-lg {
     text-decoration: none;
     color: white; }
   .div__aside .div__icons {
-    padding-top: 30%;
+    margin-top: 30%;
     display: flex;
     justify-content: space-around; }
   .div__aside .icon__aside {
-    width: 50px; }
+    width: 50px;
+    background-color: white; }
 
 /*iframe contacto*/
 .iframe__contacto {
