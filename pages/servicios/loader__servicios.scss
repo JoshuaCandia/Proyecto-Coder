@@ -20,3 +20,27 @@
 .loader__servicios2 {
     clip-path: circle(0% at 50% 50%);
 }
+/*Loader Servicios query*/
+@media (max-width: 1200px) {
+    .loader__servicios {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: rgb(169, 222, 252);
+        clip-path: circle(150% at 50% 50%);
+        transition: clip-path 2s ease-in;
+        z-index: 10000;
+    
+        img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+    }
+    .loader__servicios2 {
+        clip-path: circle(0% at 50% 50%);
+    }
+}

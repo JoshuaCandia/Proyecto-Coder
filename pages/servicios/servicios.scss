@@ -1,7 +1,8 @@
 /*Seccion Servicios*/
-.body__servicios{
+.body__servicios {
     background-color: rgb(169, 222, 252);
 }
+
 .grid__container__servicios {
     display: grid;
     grid-template-areas:
@@ -30,6 +31,7 @@
     align-items: flex-end;
     margin: 3% 0 3% 0;
     padding-right: 20px;
+
     h1 {
         color: #fff;
     }
@@ -70,7 +72,57 @@
     filter: opacity(.7);
 }
 
-.footer__servicios{
+/*Aside Servicios*/
+.div__aside__servicios {
+    margin-left: 15%;
+    margin-top: 3%;
+    border: 2px solid #CCCCCC;
+    padding: 10px;
+    border-radius: 10px;
+    height: 59%;
+    width: 40%;
+    background-color: rgb(245, 241, 241);
+
+    h2 {
+        text-align: center;
+        color: black;
+    }
+
+
+    .div__aside__ul {
+        list-style: none;
+        padding: 0;
+        font-size: 25px;
+        text-align: start;
+    }
+
+    .div__aside__ul__li {
+        padding-top: 5rem;
+        list-style: none;
+    }
+
+    .div__aside__ul__li__a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .div__icons {
+        padding-top: 30%;
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+
+    .icon__aside {
+        width: 50px;
+    }
+
+
+}
+
+.footer__servicios {
     grid-area: footer;
     margin-top: 5%;
 
@@ -81,10 +133,7 @@
 }
 
 /*Section servicios query*/
-@media (max-width: 700px) {
-
-    /*Seccion Servicios query*/
-
+@media (max-width: 1200px) {
 
     /*Main servicios query*/
     .div__titulo {
@@ -122,5 +171,144 @@
         border: 1px solid aqua;
         padding: 25px;
         border-radius: 6px;
+    }
+
+    /*Aside Servicios*/
+    .div__aside__servicios {
+        margin-left: 10%;
+        margin-top: 3%;
+        border: 2px solid #CCCCCC;
+        padding: 10px;
+        border-radius: 10px;
+        height: 59%;
+        width: 60%;
+        background-color: rgb(245, 241, 241);
+
+        h2 {
+            text-align: center;
+            color: black;
+        }
+
+
+        .div__aside__ul {
+            list-style: none;
+            padding: 0;
+            font-size: 20px;
+            text-align: start;
+        }
+
+        .div__aside__ul__li {
+            padding-top: 5rem;
+            list-style: none;
+        }
+
+        .div__aside__ul__li__a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        .div__icons {
+            display: flex;
+            justify-content: space-around;
+
+
+        }
+
+        .icon__aside {
+            width: 40px;
+        }
+
+
+    }
+}
+
+@media (max-width: 800px) {
+
+    /*Main servicios query*/
+    .div__titulo {
+        display: flex;
+        border: 1px solid black;
+        width: 70%;
+        height: 15vh;
+        background-image: url(../images/contacto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-top: 3%;
+        padding-right: 20px;
+    }
+
+    .section__parrafos {
+        width: 70%;
+        text-align: center;
+    }
+
+    .section__parrafos h2 {
+        text-align: center;
+        color: white;
+    }
+
+
+    .button__presupuesto {
+        font-family: 'Karla', sans-serif;
+        font-size: 20px;
+        width: 100%;
+        height: 15%;
+        background: transparent;
+        color: white;
+        border: 1px solid aqua;
+        padding: 25px;
+        border-radius: 6px;
+    }
+
+    /*Aside Servicios*/
+    .div__aside__servicios {
+        margin-left: 10%;
+        margin-top: 3%;
+        border: 2px solid #CCCCCC;
+        padding: 10px;
+        border-radius: 10px;
+        height: 59%;
+        width: 60%;
+        background-color: rgb(245, 241, 241);
+
+        h2 {
+            text-align: center;
+            color: black;
+        }
+
+
+        .div__aside__ul {
+            list-style: none;
+            padding: 0;
+            font-size: 20px;
+            text-align: start;
+        }
+
+        .div__aside__ul__li {
+            padding-top: 5rem;
+            list-style: none;
+        }
+
+        .div__aside__ul__li__a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        .div__icons {
+            display: flex;
+            justify-content: space-around;
+
+
+        }
+
+        .icon__aside {
+            width: 25px;
+        }
+
+
     }
 }
