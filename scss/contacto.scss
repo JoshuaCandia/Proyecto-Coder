@@ -1,8 +1,10 @@
+/*Seccion Contacto*/
 .container__contacto{
     width: 100%;
     height: 100%;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
 }
-/*Seccion Contacto*/
+
 .grid__container__contacto {
     display: grid;
     grid-template-areas:
