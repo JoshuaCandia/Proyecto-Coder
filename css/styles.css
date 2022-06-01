@@ -8430,8 +8430,8 @@ textarea.form-control-lg {
   height: 100vh;
   position: fixed;
   background-color: black;
-  clip-path: circle(150% at 100% 0);
-  transition: clip-path 3s ease-in;
+  clip-path: circle(150% at 50% 50%);
+  transition: clip-path 4s ease-in;
   z-index: 10000; }
   .loader__png img {
     position: absolute;
