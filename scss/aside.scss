@@ -51,6 +51,56 @@
 
 
 }
+/*Aside Servicios*/
+.div__aside__servicios {
+    margin-left: 15%;
+    margin-top: 3%;
+    border: 2px solid #CCCCCC;
+    padding: 10px;
+    border-radius: 10px;
+    height: 59%;
+    width: 40%;
+    background-color: #d8d8d8;
+
+    h2 {
+        text-align: center;
+        color: black;
+    }
+
+
+    .div__aside__ul {
+        list-style: none;
+        padding: 0;
+        font-size: 25px;
+        text-align: start;
+    }
+
+    .div__aside__ul__li {
+        padding-top: 5rem;
+        list-style: none;
+    }
+
+    .div__aside__ul__li__a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .div__icons {
+        padding-top: 30%;
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+
+    .icon__aside {
+        width: 50px;
+    }
+
+
+}
+
 
 
 
@@ -115,53 +165,3 @@
 
     }
 }
-/*Aside Servicios*/
-.div__aside__servicios {
-    margin-left: 15%;
-    margin-top: 3%;
-    border: 2px solid #CCCCCC;
-    padding: 10px;
-    border-radius: 10px;
-    height: 59%;
-    width: 40%;
-    background-color: transparent;
-
-    h2 {
-        text-align: center;
-        color: white;
-    }
-
-
-    .div__aside__ul {
-        list-style: none;
-        padding: 0;
-        font-size: 25px;
-        text-align: start;
-    }
-
-    .div__aside__ul__li {
-        padding-top: 5rem;
-        list-style: none;
-    }
-
-    .div__aside__ul__li__a {
-        text-decoration: none;
-        color: white;
-
-    }
-
-    .div__icons {
-        padding-top: 30%;
-        display: flex;
-        justify-content: space-around;
-
-
-    }
-
-    .icon__aside {
-        width: 50px;
-    }
-
-
-}
-

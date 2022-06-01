@@ -7812,6 +7812,220 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+/*Seccion Contacto*/
+.container__contacto {
+  width: 100%;
+  height: 100%;
+  background-color: #000; }
+
+.grid__container__contacto {
+  display: grid;
+  grid-template-areas: "main aside" "footer footer";
+  grid-template-columns: 70% 30%;
+  grid-template-rows: auto auto;
+  margin-top: 3%; }
+
+/*Header Contacto*/
+.header__contacto {
+  grid-area: "header";
+  margin-bottom: 7%; }
+
+/*Main Contacto*/
+.div__imagenPrincipal {
+  margin-left: 8%;
+  display: flex;
+  border: 2px solid white;
+  width: 70%;
+  height: 27vh;
+  background-image: url(/images/index3.jpeg);
+  background-position: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 20px; }
+  .div__imagenPrincipal h1, .div__imagenPrincipal .h1 {
+    color: white; }
+
+.section__form {
+  margin-left: 8%; }
+
+.section__div__form__f {
+  margin-left: 10%;
+  display: grid;
+  grid-template-areas: "nombre correo" "direccion telefono" "comentario comentario"; }
+
+.div__form input {
+  height: 30px;
+  border-radius: 5px;
+  border: none; }
+
+.input__submit {
+  margin-left: 2%;
+  border-radius: 2px;
+  border: 1px solid white;
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: transparent;
+  color: white; }
+
+.input__submit:hover {
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+  cursor: pointer; }
+
+/*iframe contacto*/
+.iframe__contacto {
+  width: 700px;
+  height: 300px;
+  margin-left: 8%;
+  /*Footer Contacto*/ }
+
+.footer-contacto {
+  grid-area: footer;
+  margin-top: 10%;
+  margin-left: 2%; }
+  .footer-contacto p {
+    color: white; }
+
+@media (max-width: 700px) {
+  /*Seccion Contacto*/
+  .grid__container__contacto {
+    display: grid;
+    grid-template-areas: "logo nav" "main aside" "footer footer";
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto auto; }
+  .div__imagenPrincipal {
+    margin-left: 2%;
+    display: flex;
+    border: 1px solid black;
+    width: 70%;
+    height: 15%;
+    background-image: url(/images/index3.jpeg);
+    background-position: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 20px; }
+  .input__submit {
+    margin-left: 2%;
+    border-radius: 2px;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: transparent;
+    color: white; }
+  .input__submit:hover {
+    background: #2079b0;
+    background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
+    text-decoration: none;
+    filter: opacity(0.7);
+    cursor: pointer; }
+  /*iframe contacto query*/
+  .iframe {
+    width: 400px;
+    height: 200px;
+    margin-left: 2%;
+    /*Footer Contacto*/ }
+  .footer-contacto {
+    grid-area: footer;
+    margin-top: 10%;
+    margin-left: 2%; } }
+
+.loader__png__contacto {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: black;
+  clip-path: circle(150% at 50% 50%);
+  transition: clip-path 2s ease-in;
+  z-index: 10000; }
+  .loader__png__contacto img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 50%;
+    margin: auto; }
+
+.loader__png2 {
+  clip-path: circle(0% at 50% 50%); }
+
+.mo-fire {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  top: 25%; }
+
+.mo-fire svg {
+  width: 100%;
+  height: auto;
+  position: relative; }
+
+.flame {
+  animation-name: flamefly;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  opacity: 0;
+  transform-origin: 50% 50% 0; }
+
+.flame.one {
+  animation-delay: 1s;
+  animation-duration: 3s; }
+
+.flame3.two {
+  animation-duration: 5s;
+  animation-delay: 1s; }
+
+.flame-main {
+  animation-name: flameWobble;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+.flame-main.one {
+  animation-duration: 4s;
+  animation-delay: 1s; }
+
+.flame-main.two {
+  animation-duration: 3s;
+  animation-delay: 2s; }
+
+.flame-main.three {
+  animation-duration: 2.1s;
+  animation-delay: 3s; }
+
+.flame-main.four {
+  animation-duration: 3.2s;
+  animation-delay: 4s; }
+
+.flame-main.five {
+  animation-duration: 2.5s;
+  animation-delay: 5s; }
+
+@keyframes flameWobble {
+  50% {
+    transform: scale(1, 1.2) translate(0, -30px) rotate(-2deg); } }
+
+@keyframes flamefly {
+  0% {
+    transform: translate(0) rotate(180deg); }
+  50% {
+    opacity: 1; }
+  100% {
+    transform: translate(-20px, -100px) rotate(180deg);
+    opacity: 0; } }
+
 .header__index {
   margin-bottom: 5%; }
 
@@ -7820,7 +8034,7 @@ textarea.form-control-lg {
   color: black; }
 
 .logo__header {
-  width: 200px; }
+  width: 300px; }
 
 .navbar-brand {
   margin-left: 5%; }
@@ -7995,138 +8209,6 @@ textarea.form-control-lg {
     border-left: rgba(255, 0, 0, 0.644) 5px solid;
     border-top-left-radius: 20px; } }
 
-/*Seccion Contacto*/
-.container__contacto {
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); }
-
-.grid__container__contacto {
-  display: grid;
-  grid-template-areas: "main aside" "footer footer";
-  grid-template-columns: 70% 30%;
-  grid-template-rows: auto auto;
-  margin-top: 3%; }
-
-/*Header Contacto*/
-.header__contacto {
-  grid-area: "header";
-  margin-bottom: 7%; }
-
-/*Main Contacto*/
-.div__imagenPrincipal {
-  margin-left: 8%;
-  margin-top: 2%;
-  display: flex;
-  border: 2px solid white;
-  width: 70%;
-  height: 27vh;
-  background-image: url(/images/index3.jpeg);
-  background-position: center;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding-right: 20px; }
-  .div__imagenPrincipal h1, .div__imagenPrincipal .h1 {
-    color: white; }
-
-.section__form {
-  margin-left: 8%; }
-
-.section__div__form__f {
-  margin-left: 10%;
-  display: grid;
-  grid-template-areas: "nombre correo" "direccion telefono" "comentario comentario"; }
-
-.div__form input {
-  height: 30px;
-  border-radius: 5px;
-  border: none; }
-
-.input__submit {
-  margin-left: 2%;
-  border-radius: 2px;
-  border: 1px solid black;
-  width: 200px;
-  height: 50px;
-  margin-top: 10px;
-  margin-bottom: 50px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: transparent;
-  color: white; }
-
-.input__submit:hover {
-  background: #2079b0;
-  background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
-  background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
-  background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
-  background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
-  background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
-  text-decoration: none;
-  filter: opacity(0.7);
-  cursor: pointer; }
-
-/*iframe contacto*/
-.iframe__contacto {
-  width: 700px;
-  height: 300px;
-  margin-left: 8%;
-  /*Footer Contacto*/ }
-
-.footer-contacto {
-  grid-area: footer;
-  margin-top: 10%;
-  margin-left: 2%; }
-
-@media (max-width: 700px) {
-  /*Seccion Contacto*/
-  .grid__container__contacto {
-    display: grid;
-    grid-template-areas: "logo nav" "main aside" "footer footer";
-    grid-template-columns: 70% 30%;
-    grid-template-rows: auto auto; }
-  .div__imagenPrincipal {
-    margin-left: 2%;
-    display: flex;
-    border: 1px solid black;
-    width: 70%;
-    height: 15%;
-    background-image: url(/images/index3.jpeg);
-    background-position: center;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 20px; }
-  .input__submit {
-    margin-left: 2%;
-    border-radius: 2px;
-    border: 1px solid black;
-    width: 200px;
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: transparent;
-    color: white; }
-  .input__submit:hover {
-    background: #2079b0;
-    background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
-    text-decoration: none;
-    filter: opacity(0.7);
-    cursor: pointer; }
-  /*iframe contacto query*/
-  .iframe {
-    width: 400px;
-    height: 200px;
-    margin-left: 2%;
-    /*Footer Contacto*/ }
-  .footer-contacto {
-    grid-area: footer;
-    margin-top: 10%;
-    margin-left: 2%; } }
-
 /*Aside Contacto*/
 .aside {
   grid-area: aside; }
@@ -8159,6 +8241,37 @@ textarea.form-control-lg {
     display: flex;
     justify-content: space-around; }
   .div__aside .icon__aside {
+    width: 50px; }
+
+/*Aside Servicios*/
+.div__aside__servicios {
+  margin-left: 15%;
+  margin-top: 3%;
+  border: 2px solid #CCCCCC;
+  padding: 10px;
+  border-radius: 10px;
+  height: 59%;
+  width: 40%;
+  background-color: #d8d8d8; }
+  .div__aside__servicios h2, .div__aside__servicios .h2 {
+    text-align: center;
+    color: black; }
+  .div__aside__servicios .div__aside__ul {
+    list-style: none;
+    padding: 0;
+    font-size: 25px;
+    text-align: start; }
+  .div__aside__servicios .div__aside__ul__li {
+    padding-top: 5rem;
+    list-style: none; }
+  .div__aside__servicios .div__aside__ul__li__a {
+    text-decoration: none;
+    color: black; }
+  .div__aside__servicios .div__icons {
+    padding-top: 30%;
+    display: flex;
+    justify-content: space-around; }
+  .div__aside__servicios .icon__aside {
     width: 50px; }
 
 @media (max-width: 700px) {
@@ -8198,40 +8311,9 @@ textarea.form-control-lg {
     padding: 0;
     gap: 5px; } }
 
-/*Aside Servicios*/
-.div__aside__servicios {
-  margin-left: 15%;
-  margin-top: 3%;
-  border: 2px solid #CCCCCC;
-  padding: 10px;
-  border-radius: 10px;
-  height: 59%;
-  width: 40%;
-  background-color: transparent; }
-  .div__aside__servicios h2, .div__aside__servicios .h2 {
-    text-align: center;
-    color: white; }
-  .div__aside__servicios .div__aside__ul {
-    list-style: none;
-    padding: 0;
-    font-size: 25px;
-    text-align: start; }
-  .div__aside__servicios .div__aside__ul__li {
-    padding-top: 5rem;
-    list-style: none; }
-  .div__aside__servicios .div__aside__ul__li__a {
-    text-decoration: none;
-    color: white; }
-  .div__aside__servicios .div__icons {
-    padding-top: 30%;
-    display: flex;
-    justify-content: space-around; }
-  .div__aside__servicios .icon__aside {
-    width: 50px; }
-
 /*Seccion Servicios*/
 .body__servicios {
-  background-color: #98e1fa; }
+  background-color: #a9defc; }
 
 .grid__container__servicios {
   display: grid;
@@ -8258,7 +8340,7 @@ textarea.form-control-lg {
   margin: 3% 0 3% 0;
   padding-right: 20px; }
   .div__titulo h1, .div__titulo .h1 {
-    color: #222; }
+    color: #fff; }
 
 .section__parrafos {
   width: 60%;
@@ -8527,7 +8609,7 @@ textarea.form-control-lg {
   width: 100%;
   height: 100vh;
   position: fixed;
-  background-color: #98e1fa;
+  background-color: #a9defc;
   clip-path: circle(150% at 50% 50%);
   transition: clip-path 2s ease-in;
   z-index: 10000; }
@@ -8568,13 +8650,15 @@ body {
     font-size: 60px;
     font-family: 'Bebas Neue', cursive; }
   .main-index button {
+    margin-top: 10%;
+    margin-left: 5%;
     font-family: 'Karla', sans-serif;
     font-size: 20px;
     width: 20%;
     height: 15%;
     background: transparent;
     color: white;
-    border: 2px solid #555555;
+    border: 2px solid #ff4e00;
     padding: 20px;
     border-radius: 6px; }
   .main-index a button:hover {
