@@ -10,20 +10,25 @@
 @import "servicios";
 @import "productos";
 @import "loader";
+@import "loader__servicios";
+
 body {
-    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    .grid-container-index {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-areas: 'header header'
+            'main aside'
+            'footer footer';
+        grid-template-columns: 60% 40%;
+        grid-template-rows: auto auto auto;
+    }
 }
 
-body .grid-container-index {
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-areas: 'header header'
-        'main aside'
-        'footer footer';
-    grid-template-columns: 60% 40%;
-    grid-template-rows: auto auto auto;
+.body__index {
+    background-color: black;
 }
 
 .header__index {
@@ -35,7 +40,7 @@ body .grid-container-index {
     text-align: center;
 
     h3 {
-        color: aliceblue;
+        color: #ff4e00;
         margin-left: 5%;
         margin-top: 20%;
         font-size: 60px;
@@ -55,14 +60,9 @@ body .grid-container-index {
     }
 
     a button:hover {
-        background: #2079b0;
-        background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
-        background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
-        background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
-        background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
-        background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
-        text-decoration: none;
-        filter: opacity(.7);
+        background-color: #ff4e00;
+        background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+        border: 2px solid #555555;
     }
 }
 
@@ -81,9 +81,12 @@ body .grid-container-index {
 
 .footer-index {
     grid-area: footer;
+    margin-top: 2%;
 
     p {
         margin-left: 50px;
+        color: #ff4e00;
+        
     }
 }
 
@@ -173,12 +176,12 @@ body .grid-container-index {
             }
         }
     }
-    
+
     .aside-index {
         grid-area: aside;
         margin-left: 25%;
-    
-    
+
+
         img {
             width: 200px;
         }
@@ -187,6 +190,7 @@ body .grid-container-index {
     .footer-index {
         grid-area: footer;
         margin-top: 10%;
+
         p {
             margin-left: 20px;
         }

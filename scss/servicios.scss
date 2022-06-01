@@ -1,4 +1,7 @@
 /*Seccion Servicios*/
+.body__servicios{
+    background-color: rgb(152, 225, 250);
+}
 .grid__container__servicios {
     display: grid;
     grid-template-areas:
@@ -25,11 +28,10 @@
     background-size: cover;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-top: 3%;
+    margin: 3% 0 3% 0;
     padding-right: 20px;
-
     h1 {
-        color: white;
+        color: #222;
     }
 }
 
@@ -74,6 +76,7 @@
 
     p {
         margin-left: 50px;
+        color: #222;
     }
 }
 
