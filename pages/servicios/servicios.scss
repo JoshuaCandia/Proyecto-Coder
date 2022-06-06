@@ -40,20 +40,22 @@
 .section__parrafos {
     width: 60%;
     text-align: start;
-}
+    p{
+        font-size: 18px;
+    }
 
-.section__parrafos h2 {
-    text-align: center;
-    color: white;
+    h2 {
+        text-align: center;
+        color: white;
+    }
 }
 
 .button__presupuesto {
-    font-family: 'Karla', sans-serif;
     font-size: 20px;
     width: 30%;
     height: 15%;
     background: transparent;
-    color: white;
+    color: #333;
     border: 1px solid black;
     padding: 20px;
     border-radius: 6px;

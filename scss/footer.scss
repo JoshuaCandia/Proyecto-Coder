@@ -1,7 +1,8 @@
-.footer__index {
+.footer {
     background-color: #FFD743;
     margin-top: 15%;
-
+    grid-area: footer;
+    width: 100%;
     img {
         width: 200px;
         position: relative;
