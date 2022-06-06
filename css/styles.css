@@ -8390,18 +8390,18 @@ textarea.form-control-lg {
 .section__parrafos {
   width: 60%;
   text-align: start; }
-
-.section__parrafos h2, .section__parrafos .h2 {
-  text-align: center;
-  color: white; }
+  .section__parrafos p {
+    font-size: 18px; }
+  .section__parrafos h2, .section__parrafos .h2 {
+    text-align: center;
+    color: white; }
 
 .button__presupuesto {
-  font-family: 'Karla', sans-serif;
   font-size: 20px;
   width: 30%;
   height: 15%;
   background: transparent;
-  color: white;
+  color: #333;
   border: 1px solid black;
   padding: 20px;
   border-radius: 6px;
@@ -8848,23 +8848,25 @@ textarea.form-control-lg {
     transform: translate(-20px, -100px) rotate(180deg);
     opacity: 0; } }
 
-.footer__index {
+.footer {
   background-color: #FFD743;
-  margin-top: 15%; }
-  .footer__index img {
+  margin-top: 15%;
+  grid-area: footer;
+  width: 100%; }
+  .footer img {
     width: 200px;
     position: relative;
     left: 45%; }
-  .footer__index .navbar {
+  .footer .navbar {
     margin-top: 1%;
     display: flex;
     justify-content: center; }
-  .footer__index .ul__navbar {
+  .footer .ul__navbar {
     display: flex;
     gap: 25px; }
-    .footer__index .ul__navbar li {
+    .footer .ul__navbar li {
       list-style: none; }
-    .footer__index .ul__navbar a {
+    .footer .ul__navbar a {
       position: relative;
       color: white;
       text-decoration: none;
@@ -8872,7 +8874,7 @@ textarea.form-control-lg {
       margin-top: 5%;
       letter-spacing: 0.5px;
       padding: 0 10px; }
-    .footer__index .ul__navbar a:after {
+    .footer .ul__navbar a:after {
       content: "";
       position: absolute;
       background-color: white;
@@ -8881,9 +8883,9 @@ textarea.form-control-lg {
       left: 0;
       bottom: -10px;
       transition: 0.3s; }
-    .footer__index .ul__navbar a:hover {
+    .footer .ul__navbar a:hover {
       color: #ffffff; }
-    .footer__index .ul__navbar a:hover:after {
+    .footer .ul__navbar a:hover:after {
       width: 100%; }
 
 body {
