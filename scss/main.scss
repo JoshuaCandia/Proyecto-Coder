@@ -1,6 +1,7 @@
 /*css Index*/
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Karla:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Roboto:ital,wght@0,100;0,300;0,500;1,700;1,900&display=swap');
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../pages/contacto/contacto.scss";
 @import "../pages/contacto/loader__contacto.scss";
@@ -11,87 +12,116 @@
 @import "variables";
 @import "header";
 @import "loader";
+@import "footer";
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-    .grid-container-index {
-        width: 100%;
-        height: 100%;
-        display: grid;
-        grid-template-areas: 'header header'
-            'main aside'
-            'footer footer';
-        grid-template-columns: 60% 40%;
-        grid-template-rows: auto auto auto;
-    }
 }
 
 .body__index {
-    background-color: black;
-}
+    width: 100%;
+    height: 100vh;
 
-.header__index {
-    grid-area: header;
-}
+    .section__index__top {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFD743;
 
-.main-index {
-    grid-area: main;
-    text-align: center;
+        .div__p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-left: 10%;
 
-    h3 {
-        color: #ff4e00;
-        margin-left: 5%;
-        margin-top: 20%;
-        font-size: 60px;
-        font-family: 'Bebas Neue', cursive;
+
+            h1 {
+                color: white;
+                font-size: 50px;
+                font-weight: 900;
+            }
+
+            h3 {
+                color: #1C6E7D;
+                font-size: 30px;
+                font-weight: 700;
+            }
+
+            p {
+                font-weight: 400;
+            }
+        }
+
+        .div__image {
+            img {
+                width: 500px;
+                position: relative;
+                top: 20%;
+                right:10%;
+            }
+        }
+
+        .button__index {
+            height: 50px;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-top: 10px;
+            background-color: transparent;
+            border-radius: 5%;
+            cursor: pointer;
+        }
+
+        .button__index:hover {
+            background-color: #1C6E7D;
+            cursor: pointer;
+            color: white;
+        }
     }
 
-    button {
-        margin-top: 10%;
-        margin-left: 5%;
-        font-family: 'Karla', sans-serif;
-        font-size: 20px;
-        width: 20%;
-        height: 15%;
-        background: transparent;
-        color: white;
-        border: 2px solid #ff4e00;
-        padding: 20px;
-        border-radius: 6px;
+    .section__index__bottom {
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+        .div__image__bottom {
+            width: 50%;
+            height: 100%;
+            padding-top: 10%;
+
+            img {
+                width: 600px;
+
+            }
+
+            .div__sucursales {
+                ul {
+                    li {
+                        list-style: none;
+
+                        a {
+                            text-decoration: none;
+                            color: #2F4858;
+                        }
+                    }
+                }
+            }
+        }
+
+        .div__p__bottom {
+            padding-top: 10%;
+
+            h3 {
+                color: #1C6E7D;
+
+            }
+        }
     }
 
-    a button:hover {
-        background-color: #ff4e00;
-        background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
-        border: 2px solid #555555;
-    }
+    
 }
-
-
-
-
-.aside-index {
-    grid-area: aside;
-    margin-left: 25%;
-
-
-    img {
-        width: 350px;
-    }
-}
-
-.footer-index {
-    grid-area: footer;
-    margin-top: 2%;
-
-    p {
-        margin-left: 50px;
-        color: #ff4e00;
-
-    }
-}
-
 
 
 /*Css media query index*/
