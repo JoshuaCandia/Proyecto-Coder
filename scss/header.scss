@@ -17,6 +17,7 @@
         display: flex;
         gap: 5%;
 
+
         li {
             list-style: none;
 
@@ -44,6 +45,10 @@
                 transform: translateY(15px)
             }
 
+        }
+
+        .coloranchor {
+            color: #FFD743;
         }
     }
 
@@ -125,6 +130,7 @@
         }
     }
 }
+
 @media (max-width: 1200px) {
     .header {
         height: 100%;
@@ -188,6 +194,7 @@
         }
     }
 }
+
 @media (max-width: 992px) {
     .header {
         height: 100%;
@@ -313,5 +320,3 @@
         }
     }
 }
-
-
