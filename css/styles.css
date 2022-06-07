@@ -8219,7 +8219,8 @@ textarea.form-control-lg {
   .body__empresa .images__aside {
     margin-top: 20%; }
     .body__empresa .images__aside img {
-      margin-top: 50px; }
+      margin-top: 50px;
+      width: 400px; }
   .body__empresa .footer-empresa {
     grid-area: footer; }
     .body__empresa .footer-empresa p {
