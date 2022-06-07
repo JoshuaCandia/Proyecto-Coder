@@ -1,4 +1,5 @@
 .div__aside {
+    grid-area: aside;
     margin-left: 15%;
     margin-top: 3%;
     padding: 10px;
@@ -43,5 +44,21 @@
         background-color: white;
     }
 
+
+}
+/*Media querys responsive*/
+@media (max-width: 1400px) {
+    
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1400px) {
+
+}
+@media (max-width: 1400px) {
+
+}
+@media (max-width: 1400px) {
 
 }

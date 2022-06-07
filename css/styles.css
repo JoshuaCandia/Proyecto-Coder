@@ -8753,7 +8753,7 @@ textarea.form-control-lg {
     .header .div__logo .logo {
       width: 250px; }
     .header .ul__navbar {
-      font-size: 29px;
+      font-size: 26px;
       display: flex;
       gap: 3%; }
       .header .ul__navbar li {
@@ -8792,9 +8792,9 @@ textarea.form-control-lg {
     .header .div__logo .logo {
       width: 200px; }
     .header .ul__navbar {
-      font-size: 25px;
+      font-size: 20px;
       display: flex;
-      gap: 3%; }
+      gap: 2%; }
       .header .ul__navbar li {
         list-style: none; }
         .header .ul__navbar li a {
@@ -8863,7 +8863,7 @@ textarea.form-control-lg {
         padding: 5px; } }
 
 .loader__png {
-  width: 100%;
+  width: 99%;
   height: 100vh;
   position: fixed;
   background-color: black;
@@ -9073,6 +9073,7 @@ textarea.form-control-lg {
         width: 100%; } }
 
 .div__aside {
+  grid-area: aside;
   margin-left: 15%;
   margin-top: 3%;
   padding: 10px;
