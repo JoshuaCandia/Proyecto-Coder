@@ -1,3 +1,6 @@
+/*Variables*/
+$font-color: #fff;
+
 /*Seccion Servicios*/
 .body__servicios {
     background-color: rgb(169, 222, 252);
@@ -44,16 +47,16 @@
 
 .section__parrafos h2 {
     text-align: center;
-    color: white;
+    color: $font-color;
 }
 
 .button__presupuesto {
+    @extend h1;
     font-family: 'Karla', sans-serif;
     font-size: 20px;
     width: 30%;
     height: 15%;
     background: transparent;
-    color: white;
     border: 1px solid black;
     padding: 20px;
     border-radius: 6px;
