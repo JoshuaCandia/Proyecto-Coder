@@ -8128,6 +8128,7 @@ textarea.form-control-lg {
     transform: translate(-20px, -100px) rotate(180deg);
     opacity: 0; } }
 
+/*mixin empresa*/
 /*Css Empresa*/
 .body__empresa {
   /*Header Empresa */
@@ -8694,7 +8695,7 @@ textarea.form-control-lg {
         width: 60%;
         height: 35%;
         text-align: center;
-        border-left: #FFD743 3px solid;
+        border-left: #FFD743 5px solid;
         border-top-left-radius: 20px; }
       .body__empresa .main__empresa .main__section__empresa-2 {
         display: flex;
@@ -9929,6 +9930,7 @@ textarea.form-control-lg {
       width: 25px;
       background-color: white; } }
 
+/*Main scss*/
 body {
   font-family: 'Roboto', sans-serif; }
   body .div__grid {

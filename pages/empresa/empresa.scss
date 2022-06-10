@@ -1,3 +1,11 @@
+/*mixin empresa*/
+
+@mixin border-yellow {
+    border-left: #FFD743 5px solid;
+    border-top-left-radius: 20px;
+}
+
+
 /*Css Empresa*/
 .body__empresa {
 
@@ -57,8 +65,7 @@
             width: 100%;
             height: 24%;
             text-align: center;
-            border-left: #FFD743 5px solid;
-            border-top-left-radius: 20px;
+            @include border-yellow;
         }
 
         .main__section__empresa-2 {
@@ -115,13 +122,11 @@
 
 
         .div__parrafo-1 {
-            border-left: #FFD743 5px solid;
-            border-top-left-radius: 20px;
+            @include border-yellow();
         }
 
         .div__parrafo-2 {
-            border-left: #FFD743 5px solid;
-            border-top-left-radius: 20px;
+            @include border-yellow;
         }
     }
 
@@ -179,7 +184,7 @@
             grid-area: main;
             width: 100%;
             height: 100%;
-           
+
 
             .main__section__empresa {
                 width: 100%;
@@ -210,8 +215,7 @@
                 width: 70%;
                 height: 17%;
                 text-align: center;
-                border-left: #FFD743 5px solid;
-                border-top-left-radius: 20px;
+                @include border-yellow;
             }
 
             .main__section__empresa-2 {
@@ -278,8 +282,7 @@
 
             .div__parrafo-2 {
                 display: block;
-                border-left: #FFD743 5px solid;
-                border-top-left-radius: 20px;
+                @include border-yellow;
             }
 
             h3 {
@@ -339,7 +342,7 @@
             grid-area: main;
             width: 100%;
             height: 100%;
-           
+
 
             .main__section__empresa {
                 width: 100%;
@@ -370,8 +373,7 @@
                 width: 70%;
                 height: 17%;
                 text-align: center;
-                border-left: #FFD743 5px solid;
-                border-top-left-radius: 20px;
+                @include border-yellow;
             }
 
             .main__section__empresa-2 {
@@ -432,14 +434,12 @@
                 margin-top: 10px;
                 margin-bottom: 50px;
                 display: block;
-                border-left: #FFD743 5px solid;
-                border-top-left-radius: 20px;
+                @include border-yellow;
             }
 
             .div__parrafo-2 {
                 display: block;
-                border-left: #FFD743 5px solid;
-                border-top-left-radius: 20px;
+                @include border-yellow;
             }
 
             h3 {
@@ -499,7 +499,7 @@
             grid-area: main;
             width: 100%;
             height: 100%;
-           
+
 
             .main__section__empresa {
                 width: 100%;
@@ -530,8 +530,7 @@
                 width: 70%;
                 height: 17%;
                 text-align: center;
-                border-left: #FFD743 5px solid;
-                border-top-left-radius: 20px;
+                @include border-yellow;
             }
 
             .main__section__empresa-2 {
@@ -592,14 +591,12 @@
                 margin-top: 10px;
                 margin-bottom: 50px;
                 display: block;
-                border-left: #FFD743 5px solid;
-                border-top-left-radius: 20px;
+                @include border-yellow;
             }
 
             .div__parrafo-2 {
                 display: block;
-                border-left: #FFD743 5px solid;
-                border-top-left-radius: 20px;
+                @include border-yellow;
             }
 
             h3 {
@@ -691,8 +688,7 @@
                 width: 40%;
                 height: 24%;
                 text-align: center;
-                border-left: #FFD743 5px solid;
-                border-top-left-radius: 20px;
+                @include border-yellow;
             }
 
             .main__section__empresa-2 {
@@ -753,14 +749,12 @@
                 margin-top: 10px;
                 margin-bottom: 50px;
                 display: block;
-                border-left: #FFD743 5px solid;
-                border-top-left-radius: 20px;
+                @include border-yellow;
             }
 
             .div__parrafo-2 {
                 display: block;
-                border-left: #FFD743 5px solid;
-                border-top-left-radius: 20px;
+                @include border-yellow;
             }
 
             h3 {
@@ -852,8 +846,7 @@
                 width: 60%;
                 height: 35%;
                 text-align: center;
-                border-left: #FFD743 3px solid;
-                border-top-left-radius: 20px;
+                @include border-yellow;
             }
 
             .main__section__empresa-2 {
@@ -914,14 +907,12 @@
                 margin-top: 10px;
                 margin-bottom: 50px;
                 display: block;
-                border-left: #FFD743 5px solid;
-                border-top-left-radius: 20px;
+                @include border-yellow;
             }
 
             .div__parrafo-2 {
                 display: block;
-                border-left: #FFD743 5px solid;
-                border-top-left-radius: 20px;
+                @include border-yellow;
             }
 
             h3 {
