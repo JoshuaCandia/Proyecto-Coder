@@ -7821,10 +7821,9 @@ textarea.form-control-lg {
 
 .grid__container__contacto {
   display: grid;
-  grid-template-areas: "main aside" "footer footer";
+  grid-template-areas: "header header" "main aside" "footer footer";
   grid-template-columns: 70% 30%;
-  grid-template-rows: auto auto;
-  margin-top: 3%; }
+  grid-template-rows: auto auto; }
 
 /*Header Contacto*/
 .header__contacto {
@@ -7833,6 +7832,7 @@ textarea.form-control-lg {
 
 /*Main Contacto*/
 .div__imagenPrincipal {
+  margin-top: 5%;
   margin-left: 8%;
   display: flex;
   border: 2px solid white;
@@ -7895,150 +7895,355 @@ textarea.form-control-lg {
     color: white; }
 
 /*Media querys Contacto*/
-@media (max-width: 800px) {
+@media (max-width: 1400px) {
   /*Seccion Contacto*/
-  .grid__container__contacto {
-    display: grid;
-    grid-template-areas: "logo nav" "main aside" "footer footer";
-    grid-template-columns: 70% 30%;
-    grid-template-rows: auto auto; }
-  .div__imagenPrincipal {
-    margin-left: 10%;
-    display: flex;
-    border: 1px solid black;
-    width: 70%;
-    height: 15%;
-    background-image: url(/images/index3.jpeg);
-    background-position: center;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 20px; }
-  .input__submit {
-    margin-left: 2%;
-    border-radius: 2px;
-    border: 1px solid black;
-    width: 200px;
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: transparent;
-    color: white; }
-  .input__submit:hover {
-    background: #2079b0;
-    background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
-    text-decoration: none;
-    filter: opacity(0.7);
-    cursor: pointer; }
-  /*Aside Contacto*/
-  .aside {
-    grid-area: aside; }
-  /*iframe contacto query*/
-  .iframe__contacto {
-    width: 400px;
-    height: 200px;
-    margin-left: 2%;
-    /*Footer Contacto*/ }
-  .footer-contacto {
-    grid-area: footer;
-    margin-top: 10%;
-    margin-left: 2%; } }
-
-@media (max-width: 800px) and (max-width: 700px) {
-  .div__aside {
-    width: 75%;
+  .container__contacto {
+    width: 100%;
     height: 100%; }
-  .footer-contacto {
-    padding-top: 5%; } }
-
-/*Media Query 1300px*/
-@media (max-width: 1300px) {
-  /*Seccion Contacto*/
   .grid__container__contacto {
     display: grid;
-    grid-template-areas: "logo nav" "main aside" "footer footer";
+    grid-template-areas: "header header" "main aside" "footer footer";
     grid-template-columns: 70% 30%;
-    grid-template-rows: auto auto; }
+    grid-template-rows: auto auto;
+    margin-top: 3%; }
+  /*Header Contacto*/
+  .header__contacto {
+    grid-area: "header";
+    margin-bottom: 7%; }
+  /*Main Contacto*/
   .div__imagenPrincipal {
     margin-left: 8%;
     display: flex;
-    border: 1px solid black;
+    border: 2px solid white;
     width: 70%;
-    height: 15%;
+    height: 27vh;
     background-image: url(/images/index3.jpeg);
     background-position: center;
     justify-content: flex-end;
     align-items: flex-end;
     padding-right: 20px; }
+    .div__imagenPrincipal h1, .div__imagenPrincipal .h1, .div__imagenPrincipal .button__presupuesto {
+      color: white; }
+  .section__form {
+    margin-left: 8%; }
+  .section__div__form__f {
+    margin-left: 10%;
+    display: grid;
+    grid-template-areas: "nombre correo" "direccion telefono" "comentario comentario"; }
+  .div__form input {
+    height: 30px;
+    border-radius: 5px;
+    border: none; }
   .input__submit {
     margin-left: 2%;
     border-radius: 2px;
-    border: 1px solid black;
+    border: 1px solid #000;
     width: 200px;
     height: 50px;
     margin-top: 10px;
     margin-bottom: 50px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: transparent;
-    color: white; }
+    color: #000; }
   .input__submit:hover {
-    background: #2079b0;
-    background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
-    text-decoration: none;
-    filter: opacity(0.7);
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
     cursor: pointer; }
   /*Aside Contacto*/
   .aside {
     grid-area: aside; }
-  .div__aside {
-    margin-left: 10%;
-    margin-top: 3%;
-    border: 2px solid #CCCCCC;
-    padding: 10px;
-    border-radius: 10px;
-    height: 100%;
-    width: 75%;
-    background-color: transparent; }
-    .div__aside h2, .div__aside .h2 {
-      text-align: center;
-      color: white; }
-    .div__aside .div__aside__ul {
-      list-style: none;
-      padding: 0;
-      font-size: 35px;
-      text-align: start; }
-    .div__aside .div__aside__ul__li {
-      padding-top: 5rem;
-      list-style: none; }
-    .div__aside .div__aside__ul__li__a {
-      text-decoration: none;
-      color: white; }
-    .div__aside .div__icons {
-      padding-top: 30%;
-      display: flex;
-      justify-content: space-around; }
-    .div__aside .icon__aside {
-      width: 40px;
-      padding: 2px;
-      background-color: white; }
-  /*iframe contacto query*/
+  /*iframe contacto*/
   .iframe__contacto {
-    width: 400px;
-    height: 200px;
-    margin-left: 2%;
+    width: 700px;
+    height: 300px;
+    margin-left: 8%;
     /*Footer Contacto*/ }
   .footer-contacto {
     grid-area: footer;
     margin-top: 10%;
-    margin-left: 2%; } }
+    margin-left: 2%; }
+    .footer-contacto p {
+      color: white; } }
+
+@media (max-width: 1200px) {
+  /*Seccion Contacto*/
+  .container__contacto {
+    width: 100%;
+    height: 100%; }
+  .grid__container__contacto {
+    display: grid;
+    grid-template-areas: "header header" "main aside" "footer footer";
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto auto;
+    margin-top: 3%; }
+  /*Header Contacto*/
+  .header__contacto {
+    grid-area: "header";
+    margin-bottom: 7%; }
+  /*Main Contacto*/
+  .div__imagenPrincipal {
+    margin-left: 8%;
+    display: flex;
+    border: 2px solid white;
+    width: 70%;
+    height: 27vh;
+    background-image: url(/images/index3.jpeg);
+    background-position: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 20px; }
+    .div__imagenPrincipal h1, .div__imagenPrincipal .h1, .div__imagenPrincipal .button__presupuesto {
+      color: white; }
+  .section__form {
+    margin-left: 8%; }
+  .section__div__form__f {
+    margin-left: 10%;
+    display: grid;
+    grid-template-areas: "nombre correo" "direccion telefono" "comentario comentario"; }
+  .div__form input {
+    height: 30px;
+    border-radius: 5px;
+    border: none; }
+  .input__submit {
+    margin-left: 2%;
+    border-radius: 2px;
+    border: 1px solid #000;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: transparent;
+    color: #000; }
+  .input__submit:hover {
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    cursor: pointer; }
+  /*Aside Contacto*/
+  .aside {
+    grid-area: aside; }
+  /*iframe contacto*/
+  .iframe__contacto {
+    width: 700px;
+    height: 300px;
+    margin-left: 8%;
+    /*Footer Contacto*/ }
+  .footer-contacto {
+    grid-area: footer;
+    margin-top: 10%;
+    margin-left: 2%; }
+    .footer-contacto p {
+      color: white; } }
+
+@media (max-width: 992px) {
+  /*Seccion Contacto*/
+  .container__contacto {
+    width: 100%;
+    height: 100%; }
+  .grid__container__contacto {
+    display: grid;
+    grid-template-areas: "header header" "main aside" "footer footer";
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto auto;
+    margin-top: 3%; }
+  /*Header Contacto*/
+  .header__contacto {
+    grid-area: "header";
+    margin-bottom: 7%; }
+  /*Main Contacto*/
+  .div__imagenPrincipal {
+    margin-left: 8%;
+    display: flex;
+    border: 2px solid white;
+    width: 70%;
+    height: 27vh;
+    background-image: url(/images/index3.jpeg);
+    background-position: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 20px; }
+    .div__imagenPrincipal h1, .div__imagenPrincipal .h1, .div__imagenPrincipal .button__presupuesto {
+      color: white; }
+  .section__form {
+    margin-left: 8%; }
+  .section__div__form__f {
+    margin-left: 10%;
+    display: grid;
+    grid-template-areas: "nombre correo" "direccion telefono" "comentario comentario"; }
+  .div__form input {
+    height: 30px;
+    border-radius: 5px;
+    border: none; }
+  .input__submit {
+    margin-left: 2%;
+    border-radius: 2px;
+    border: 1px solid #000;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: transparent;
+    color: #000; }
+  .input__submit:hover {
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    cursor: pointer; }
+  /*Aside Contacto*/
+  .aside {
+    grid-area: aside; }
+  /*iframe contacto*/
+  .iframe__contacto {
+    width: 700px;
+    height: 300px;
+    margin-left: 8%;
+    /*Footer Contacto*/ }
+  .footer-contacto {
+    grid-area: footer;
+    margin-top: 10%;
+    margin-left: 2%; }
+    .footer-contacto p {
+      color: white; } }
+
+@media (max-width: 768px) {
+  /*Seccion Contacto*/
+  .container__contacto {
+    width: 100%;
+    height: 100%; }
+  .grid__container__contacto {
+    display: grid;
+    grid-template-areas: "header header" "main aside" "footer footer";
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto auto;
+    margin-top: 3%; }
+  /*Header Contacto*/
+  .header__contacto {
+    grid-area: "header";
+    margin-bottom: 7%; }
+  /*Main Contacto*/
+  .div__imagenPrincipal {
+    margin-left: 8%;
+    display: flex;
+    border: 2px solid white;
+    width: 70%;
+    height: 27vh;
+    background-image: url(/images/index3.jpeg);
+    background-position: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 20px; }
+    .div__imagenPrincipal h1, .div__imagenPrincipal .h1, .div__imagenPrincipal .button__presupuesto {
+      color: white; }
+  .section__form {
+    margin-left: 8%; }
+  .section__div__form__f {
+    margin-left: 10%;
+    display: grid;
+    grid-template-areas: "nombre correo" "direccion telefono" "comentario comentario"; }
+  .div__form input {
+    height: 30px;
+    border-radius: 5px;
+    border: none; }
+  .input__submit {
+    margin-left: 2%;
+    border-radius: 2px;
+    border: 1px solid #000;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: transparent;
+    color: #000; }
+  .input__submit:hover {
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    cursor: pointer; }
+  /*Aside Contacto*/
+  .aside {
+    grid-area: aside; }
+  /*iframe contacto*/
+  .iframe__contacto {
+    width: 700px;
+    height: 300px;
+    margin-left: 8%;
+    /*Footer Contacto*/ }
+  .footer-contacto {
+    grid-area: footer;
+    margin-top: 10%;
+    margin-left: 2%; }
+    .footer-contacto p {
+      color: white; } }
+
+@media (max-width: 576px) {
+  /*Seccion Contacto*/
+  .container__contacto {
+    width: 100%;
+    height: 100%; }
+  .grid__container__contacto {
+    display: grid;
+    grid-template-areas: "header header" "main aside" "footer footer";
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto auto;
+    margin-top: 3%; }
+  /*Header Contacto*/
+  .header__contacto {
+    grid-area: "header";
+    margin-bottom: 7%; }
+  /*Main Contacto*/
+  .div__imagenPrincipal {
+    margin-left: 8%;
+    display: flex;
+    border: 2px solid white;
+    width: 70%;
+    height: 27vh;
+    background-image: url(/images/index3.jpeg);
+    background-position: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 20px; }
+    .div__imagenPrincipal h1, .div__imagenPrincipal .h1, .div__imagenPrincipal .button__presupuesto {
+      color: white; }
+  .section__form {
+    margin-left: 8%; }
+  .section__div__form__f {
+    margin-left: 10%;
+    display: grid;
+    grid-template-areas: "nombre correo" "direccion telefono" "comentario comentario"; }
+  .div__form input {
+    height: 30px;
+    border-radius: 5px;
+    border: none; }
+  .input__submit {
+    margin-left: 2%;
+    border-radius: 2px;
+    border: 1px solid #000;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: transparent;
+    color: #000; }
+  .input__submit:hover {
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    cursor: pointer; }
+  /*Aside Contacto*/
+  .aside {
+    grid-area: aside; }
+  /*iframe contacto*/
+  .iframe__contacto {
+    width: 700px;
+    height: 300px;
+    margin-left: 8%;
+    /*Footer Contacto*/ }
+  .footer-contacto {
+    grid-area: footer;
+    margin-top: 10%;
+    margin-left: 2%; }
+    .footer-contacto p {
+      color: white; } }
 
 .loader__png__contacto {
   width: 100%;
@@ -9679,7 +9884,6 @@ textarea.form-control-lg {
   grid-area: footer;
   background-color: #FFD743;
   margin-top: 15%;
-  grid-area: footer;
   width: 100%; }
   .footer img {
     width: 200px;
