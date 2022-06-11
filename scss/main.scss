@@ -26,7 +26,6 @@ body {
         "header"
         "main"
         "footer";
-        grid-template-columns: 100%;
     }
 }
 
@@ -660,10 +659,10 @@ body {
             .div__image {
                 width: 45%;
                 margin-right: 8%;
-                margin-top: 23%;
+                margin-top: 18%;
 
                 img {
-                    width: 330px;
+                    width: 110%;
                 }
             }
 
@@ -692,7 +691,7 @@ body {
             .div__image__bottom {
                 width: 45%;
                 height: 100%;
-                padding-top: 45%;
+                padding-top: 30%;
 
                 img {
                     width: 280px;
@@ -727,7 +726,7 @@ body {
 
             .div__p__bottom {
                 width: 50%;
-                padding-top: 6%;
+                padding-top: 8%;
                 padding-right: 25px;
                 text-align: center;
                 p {
