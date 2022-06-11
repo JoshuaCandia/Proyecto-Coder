@@ -8965,7 +8965,7 @@ textarea.form-control-lg {
 /*Variables*/
 /*Seccion Servicios*/
 .body__servicios {
-  background-color: #a9defc; }
+  background-color: #fff; }
 
 .grid__container__servicios {
   display: grid;
@@ -9000,7 +9000,7 @@ textarea.form-control-lg {
 
 .section__parrafos h2, .section__parrafos .h2 {
   text-align: center;
-  color: #fff; }
+  color: #000; }
 
 .button__presupuesto {
   font-family: 'Karla', sans-serif;
