@@ -45,45 +45,37 @@
     </div>
 
     <!--Header Contacto -->
-    <header class="header__contacto">
-
-        <!--Navbar-->
-        <nav class="navbar navbar-expand-lg sticky-top " style="background-color:black;">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/index.html"><img class="logo__header" src="/images/BLANCO 400x100.png"
-                        alt="Logo"></a>
-                <div class="d-flex flex-row-reverse">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ">
-                            <li class="nav-item">
-                                <a style="color:#fff ;" class="nav-link active" aria-current="page"
-                                    href="/index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a style="color:#fff;" class="nav-link" href="/pages/empresa/empresa.html">Empresa</a>
-                            </li>
-                            <li class="nav-item">
-                                <a style="color:#fff;" class="nav-link"
-                                    href="/pages//servicios/servicios.html">Servicios</a>
-                            </li>
-                            <li class="nav-item">
-                                <a style="color:#fff;" class="nav-link"
-                                    href="/pages//productos/productos.html">Productos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a style="color:#fff;" class="nav-link" href="#">Contacto</a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
+    <header class="header">
+        <!--Logo-->
+        <div class="div__logo">
+            <a href="#"> <img class="logo" src="/images/logos/NEGRO f.png" alt="Logo"></a>
+        </div>
+        <!--NavBar-->
+        <nav class="navbar">
+            <ul id="ejm1" class="ul__navbar">
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="/pages/empresa/empresa.html">Empresa</a>
+                </li>
+                <li>
+                    <a href="/pages/productos/productos.html">Productos</a>
+                </li>
+                <li>
+                    <a href="/pages/servicios/servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="/pages/Contacto/contacto.html">Contacto</a>
+                </li>
+            </ul>
         </nav>
+        <div class="div__social">
+            <a target="blank" href="https://www.instagram.com"><img src="/images/logos/instagram.png"
+                    alt="Instagram"></a>
+            <a target="blank" href="https://www.facebook.com"><img src="/images/logos/facebook.png" alt="facebook"></a>
+            <a target="blank" href="https://www.twitter.com"><img src="/images/logos/twitter.png" alt="Youtube"></a>
+        </div>
     </header>
 
     <!--Container Contacto-->
@@ -102,7 +94,7 @@
                     <h2 style="color:#FFF ;" class="h1-responsive font-weight-bold text-center my-4">Contáctanos</h2>
                     <!--Section description-->
                     <div class="div__descripcion">
-                        <p style="color:#FFF ;" class="text-start w-responsive mx-auto mb-5">¿Usted tiene alguna
+                        <p style="color:#000 ;" class="text-start w-responsive mx-auto mb-5">¿Usted tiene alguna
                             consulta? porfavor
                             no dude en contactarnos directamente. Nuestro equipo se comunicara con usted en
                             pocas horas para ayudarlo.</p>
@@ -120,7 +112,7 @@
                                     <div class="col-md-6">
                                         <div class="md-form mb-0">
                                             <input type="text" id="name" name="name" class="form-control">
-                                            <label style="color: #fff;" for="name" class="">Nombre</label>
+                                            <label style="color: #000;" for="name" class="">Nombre</label>
                                         </div>
                                     </div>
                                     <!--Grid column-->
@@ -129,7 +121,7 @@
                                     <div class="col-md-6">
                                         <div class="md-form mb-0">
                                             <input type="text" id="email" name="email" class="form-control">
-                                            <label style="color: #fff;" for="email" class="">Email</label>
+                                            <label style="color: #000;" for="email" class="">Email</label>
                                         </div>
                                     </div>
                                     <!--Grid column-->
@@ -142,7 +134,7 @@
                                     <div class="col-md-12">
                                         <div class="md-form mb-0">
                                             <input type="text" id="subject" name="subject" class="form-control">
-                                            <label style="color: #fff;" for="subject" class="">Asunto</label>
+                                            <label style="color: #000;" for="subject" class="">Asunto</label>
                                         </div>
                                     </div>
                                 </div>
@@ -157,7 +149,7 @@
                                         <div class="md-form">
                                             <textarea type="text" id="message" name="message" rows="2"
                                                 class="form-control md-textarea"></textarea>
-                                            <label style="color: #fff;" for="message">Su mensaje</label>
+                                            <label style="color: #000;" for="message">Su mensaje</label>
                                         </div>
 
                                     </div>
@@ -191,6 +183,7 @@
                     4872be87cf3%3A0x9ba0844c712c91c7%3Fsa%3DX!5smatafuegos%20chrisevel%20-%20Buscar%20con%20Google!15sCgIgAQ&imagekey=!1e2!2sVnq-eyvFKI8MY3b5jJOm9Q&hl=es-
                     419&sa=X&ved=2ahUKEwj4lcbv2J73AhXiupUCHVkSDpUQpx96BAg2EAg">
                             San Juan 915
+                            G.Pacheco
                         </a>
                     </li>
                     <li class="div__aside__ul__li">
@@ -224,19 +217,47 @@
                         </li>
                     </div>
                 </ul>
+                <div class="images__aside">
+                    <img src="/images/logos/iram.jpg" class="img-thumbnail" alt="...">
+                    <img src="/images/logos/afip.png" class="img-thumbnail" alt="...">
+                    <img src="/images/logos/opds.png" class="img-thumbnail" alt="...">
+
+                </div>
             </aside>
         </div>
-
         <!--Footer Contacto-->
-        <footer class="footer-contacto">
-            <p>Copyright © Todos los derechos reservados</p>
+        <footer class="footer">
+            <!--Logo Footer-->
+            <a href="/index.html">
+                <img src="/images/logos/BLANCO 400x100.png" alt="Logo Footer">
+            </a>
+            <!--NavBar Footer-->
+            <nav class="navbar">
+                <ul id="ejm1" class="ul__navbar">
+                    <li>
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Empresa</a>
+                    </li>
+                    <li>
+                        <a href="/pages/Productos/productos.html">Productos</a>
+                    </li>
+                    <li>
+                        <a href="/pages/Servicios/servicios.html">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="/pages/Contacto/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
         </footer>
     </div>
 
     <!--Scripts-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="/pages/contacto/contacto.js"></script>
     </div>
 </body>
