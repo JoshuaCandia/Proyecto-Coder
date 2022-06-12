@@ -10635,6 +10635,10 @@ body {
       padding-left: 5%; }
       .body__index .section__index__bottom .div__image__bottom img {
         width: 600px; }
+      .body__index .section__index__bottom .div__image__bottom .div__sucursales h3, .body__index .section__index__bottom .div__image__bottom .div__sucursales .h3 {
+        margin-top: 4%;
+        margin-bottom: 2%;
+        color: #ffffff; }
       .body__index .section__index__bottom .div__image__bottom .div__sucursales ul li {
         list-style: none; }
         .body__index .section__index__bottom .div__image__bottom .div__sucursales ul li a {

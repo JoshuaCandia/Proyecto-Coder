@@ -112,6 +112,11 @@ body {
             }
 
             .div__sucursales {
+                h3{
+                    margin-top: 4%;
+                    margin-bottom: 2%;
+                    color: $palette-color5;
+                }
                 ul {
                     li {
                         list-style: none;
