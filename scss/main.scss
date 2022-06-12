@@ -815,9 +815,10 @@ body {
         }
 
         .section__index__bottom {
+            grid-area: main;
             background-color: $palette-color3;
             grid-area: main;
-            height: 75%;
+            height: 100%;
             width: 100%;
             display: flex;
             align-items: center;
@@ -836,7 +837,7 @@ body {
                 .div__sucursales {
                     h3 {
                         margin-top: 4%;
-                        margin-bottom: 2%S;
+                        margin-bottom: 2%;
                         color: $palette-color5;
                     }
 
