@@ -11713,8 +11713,11 @@ body {
         .body__index .section__index__top .div__p p {
           display: none; }
       .body__index .section__index__top .div__image {
-        margin-top: 5%;
-        padding-right: 5%; }
+        position: relative;
+        right: 5%;
+        top: 18%;
+        padding-top: 0;
+        padding-right: 0; }
         .body__index .section__index__top .div__image img {
           width: 130px; }
       .body__index .section__index__top .button__index {

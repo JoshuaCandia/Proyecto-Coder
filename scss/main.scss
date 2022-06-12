@@ -934,8 +934,11 @@ body {
             }
 
             .div__image {
-                margin-top: 5%;
-                padding-right: 5%;
+                position: relative;
+                right:5%;
+                top: 18%;
+                padding-top: 0;
+                padding-right: 0;
                 img {
                     width: 130px;
                 }
