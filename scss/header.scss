@@ -340,7 +340,6 @@
     .header {
         background-color: $color-header;
         grid-area: header;
-        height: 100%;
         display: flex;
         align-items: center;
         justify-content: flex-start;
@@ -356,14 +355,15 @@
                 width: 100px;
             }
         }
-    
+        nav{
+            margin-left: 10%;
+        }
         .ul__navbar {
             display: flex;
             align-items: center;
             width: 50%;
             font-size: $font-size-header-sm;
             margin-top: 5px;
-            margin-left: 30%;
             gap: 10%;
     
             li {

@@ -758,53 +758,54 @@ body {
 
         .section__index__top {
             grid-area: main;
-            height: 72%;
             width: 100%;
+            padding-top: 12%;
             display: flex;
             justify-content: space-around;
 
             .div__p {
                 display: flex;
                 justify-content: center;
-                align-items: center;
+                align-items: flex-start;
                 flex-direction: column;
+                text-align: center;
                 padding-left: 10%;
 
 
                 h1 {
                     color: $palette-color1;
-                    font-size: 50px;
+                    font-size: 25px;
                     font-weight: 900;
                 }
 
                 h3 {
                     color: $palette-color4;
-                    font-size: 30px;
+                    font-size: 15px;
                     font-weight: 700;
                 }
 
                 p {
-                    color: $palette-color4;
-                    font-weight: 400;
+                    display: none;
                 }
             }
 
             .div__image {
                 img {
-                    width: 500px;
+                    width: 200px;
                 }
             }
 
             .button__index {
                 color: #303136;
                 border-color: #303136;
-                height: 50px;
+                height: 35px;
                 padding-left: 50px;
                 padding-right: 50px;
                 margin-top: 10px;
                 background-color: transparent;
                 border-radius: 5%;
                 cursor: pointer;
+                font-size: small;
             }
 
             .button__index:hover {
@@ -815,14 +816,12 @@ body {
         }
 
         .section__index__bottom {
-            grid-area: main;
             background-color: $palette-color3;
-            grid-area: main;
-            height: 100%;
             width: 100%;
+            height: 90%;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
 
             .div__image__bottom {
                 width: 50%;
@@ -830,21 +829,21 @@ body {
                 padding-left: 5%;
 
                 img {
-                    width: 600px;
+                    width: 150px;
 
                 }
 
                 .div__sucursales {
                     h3 {
                         margin-top: 4%;
-                        margin-bottom: 2%;
                         color: $palette-color5;
+                        font-size: medium;
                     }
 
                     ul {
                         li {
                             list-style: none;
-
+                            font-size: small;
                             a {
                                 text-decoration: none;
                                 box-shadow: inset 0 0 0 0 $palette-color1;
@@ -868,7 +867,7 @@ body {
                 text-align: center;
 
                 p {
-                    font-size: 20px;
+                    font-size: small;
                     color: $palette-color5;
 
                 }

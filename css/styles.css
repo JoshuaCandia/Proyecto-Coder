@@ -10109,7 +10109,6 @@ textarea.form-control-lg {
   .header {
     background-color: #ef5349;
     grid-area: header;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -10121,13 +10120,14 @@ textarea.form-control-lg {
       width: 25%; }
       .header .div__logo .logo {
         width: 100px; }
+    .header nav {
+      margin-left: 10%; }
     .header .ul__navbar {
       display: flex;
       align-items: center;
       width: 50%;
-      font-size: 15px;
+      font-size: 12px;
       margin-top: 5px;
-      margin-left: 30%;
       gap: 10%; }
       .header .ul__navbar li {
         list-style: none; }
@@ -10461,11 +10461,10 @@ textarea.form-control-lg {
   .footer {
     grid-area: footer;
     background-color: #45444d;
-    margin-top: 105%;
     width: 100%; }
     .footer img {
       margin-top: 1%;
-      width: 200px;
+      width: 120px;
       position: relative;
       left: 45%; }
     .footer .navbar {
@@ -10474,14 +10473,14 @@ textarea.form-control-lg {
       justify-content: center; }
     .footer .ul__navbar {
       display: flex;
-      gap: 25px; }
+      gap: 20px; }
       .footer .ul__navbar li {
         list-style: none; }
       .footer .ul__navbar a {
         position: relative;
         color: white;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 12px;
         margin-top: 5%;
         letter-spacing: 0.5px;
         padding: 0 10px; }
@@ -11163,63 +11162,63 @@ body {
     height: 100%; }
     .body__index .section__index__top {
       grid-area: main;
-      height: 72%;
       width: 100%;
+      padding-top: 12%;
       display: flex;
       justify-content: space-around; }
       .body__index .section__index__top .div__p {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
+        text-align: center;
         padding-left: 10%; }
         .body__index .section__index__top .div__p h1, .body__index .section__index__top .div__p .h1 {
           color: #ef5349;
-          font-size: 50px;
+          font-size: 25px;
           font-weight: 900; }
         .body__index .section__index__top .div__p h3, .body__index .section__index__top .div__p .h3 {
           color: #565656;
-          font-size: 30px;
+          font-size: 15px;
           font-weight: 700; }
         .body__index .section__index__top .div__p p {
-          color: #565656;
-          font-weight: 400; }
+          display: none; }
       .body__index .section__index__top .div__image img {
-        width: 500px; }
+        width: 200px; }
       .body__index .section__index__top .button__index {
         color: #303136;
         border-color: #303136;
-        height: 50px;
+        height: 35px;
         padding-left: 50px;
         padding-right: 50px;
         margin-top: 10px;
         background-color: transparent;
         border-radius: 5%;
-        cursor: pointer; }
+        cursor: pointer;
+        font-size: small; }
       .body__index .section__index__top .button__index:hover {
         background-color: #ef5349;
         cursor: pointer;
         color: white; }
     .body__index .section__index__bottom {
-      grid-area: main;
       background-color: #bbbbbb;
-      grid-area: main;
-      height: 100%;
       width: 100%;
+      height: 90%;
       display: flex;
       align-items: center;
-      justify-content: center; }
+      justify-content: flex-start; }
       .body__index .section__index__bottom .div__image__bottom {
         width: 50%;
         padding-left: 5%; }
         .body__index .section__index__bottom .div__image__bottom img {
-          width: 600px; }
+          width: 150px; }
         .body__index .section__index__bottom .div__image__bottom .div__sucursales h3, .body__index .section__index__bottom .div__image__bottom .div__sucursales .h3 {
           margin-top: 4%;
-          margin-bottom: 2%;
-          color: #ffffff; }
+          color: #ffffff;
+          font-size: medium; }
         .body__index .section__index__bottom .div__image__bottom .div__sucursales ul li {
-          list-style: none; }
+          list-style: none;
+          font-size: small; }
           .body__index .section__index__bottom .div__image__bottom .div__sucursales ul li a {
             text-decoration: none;
             box-shadow: inset 0 0 0 0 #ef5349;
@@ -11234,5 +11233,5 @@ body {
         width: 50%;
         text-align: center; }
         .body__index .section__index__bottom .div__p__bottom p {
-          font-size: 20px;
+          font-size: small;
           color: #ffffff; } }
