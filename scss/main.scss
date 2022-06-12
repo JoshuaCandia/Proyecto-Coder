@@ -19,6 +19,7 @@
 /*Main scss*/
 
 body {
+
     font-family: 'Roboto', sans-serif;
     .div__grid {
         display: grid;
@@ -30,17 +31,16 @@ body {
 }
 
 .body__index {
+    background-color:#fff;
     width: 100%;
     height: 100%;
 
     .section__index__top {
         grid-area: main;
-        height: 50%;
+        height: 72%;
         width: 100%;
         display: flex;
         justify-content: space-around;
-        background-color: #FFD743;
-
         .div__p {
             display: flex;
             justify-content: center;
@@ -50,18 +50,19 @@ body {
 
 
             h1 {
-                color: white;
+                color: $palette-color1;
                 font-size: 50px;
                 font-weight: 900;
             }
 
             h3 {
-                color: #1C6E7D;
+                color: $palette-color4;
                 font-size: 30px;
                 font-weight: 700;
             }
 
             p {
+                color: $palette-color4;
                 font-weight: 400;
             }
         }
@@ -73,6 +74,8 @@ body {
         }
 
         .button__index {
+            color: #303136;
+            border-color: #303136;
             height: 50px;
             padding-left: 50px;
             padding-right: 50px;
@@ -83,23 +86,25 @@ body {
         }
 
         .button__index:hover {
-            background-color: #1C6E7D;
+            background-color: $palette-color1;
             cursor: pointer;
             color: white;
         }
     }
 
     .section__index__bottom {
+        background-color: $palette-color3;
         grid-area: main;
-        height: 50%;
+        height: 75%;
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        align-items: center;
+       justify-content: center;
 
         .div__image__bottom {
             width: 50%;
-            height: 100%;
-            padding-top: 10%;
+
+            padding-left: 5%;
 
             img {
                 width: 600px;
@@ -113,15 +118,15 @@ body {
 
                         a {
                             text-decoration: none;
-                            box-shadow: inset 0 0 0 0 #54b3d6;
-                            color: #54b3d6;
+                            box-shadow: inset 0 0 0 0 $palette-color1;
+                            color: $palette-color5;
                             margin: 0 -.25rem;
                             padding: 0 .25rem;
                             transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
                         }
 
                         a:hover {
-                            box-shadow: inset 100px 0 0 0 #54b3d6;
+                            box-shadow: inset 100px 0 0 0 $palette-color1;
                             color: white;
                         }
                     }
@@ -130,11 +135,12 @@ body {
         }
 
         .div__p__bottom {
-            padding-top: 1%;
+            width: 50%;
+            text-align: center;
 
-
-            h3 {
-                color: #1C6E7D;
+            p {
+                font-size:20px;
+                color: $palette-color5;
 
             }
         }

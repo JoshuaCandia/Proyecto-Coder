@@ -1,9 +1,10 @@
 .footer {
     grid-area:footer;
-    background-color: #FFD743;
-    margin-top: 15%;
+    background-color: $palette-color6;
+    margin-top: 28%;
     width: 100%;
     img {
+        margin-top: 1%;
         width: 200px;
         position: relative;
         left: 45%;
