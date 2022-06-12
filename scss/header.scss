@@ -429,22 +429,25 @@
     
         .div__logo {
             display: flex;
+            align-items: center;
             justify-content: center;
             width: 25%;
-    
+
             .logo {
                 width: 80px;
+                
             }
         }
         nav{
             margin-left: 0;
+            margin-bottom: 10px;
         }
         .ul__navbar {
             display: flex;
             align-items: center;
             width: 50%;
             font-size: $font-size-header-extra-sm;
-            margin-top: 5px;
+            margin-top: 0;
             gap: 7%;
     
             li {
