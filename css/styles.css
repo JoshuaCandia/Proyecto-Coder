@@ -9888,7 +9888,7 @@ textarea.form-control-lg {
       color: black;
       font-size: 10px; } }
 
-/*Header*/
+/*Header and Footer*/
 /*Paleta de Colores*/
 /*Variables header*/
 .header {
@@ -10160,6 +10160,55 @@ textarea.form-control-lg {
         width: 25px; }
       .header .div__social a {
         padding: 5px; } }
+
+@media (max-width: 475px) {
+  .header {
+    background-color: #ef5349;
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%; }
+    .header .div__logo {
+      display: flex;
+      justify-content: center;
+      width: 25%; }
+      .header .div__logo .logo {
+        width: 80px; }
+    .header nav {
+      margin-left: 0; }
+    .header .ul__navbar {
+      display: flex;
+      align-items: center;
+      width: 50%;
+      font-size: 10px;
+      margin-top: 5px;
+      gap: 7%; }
+      .header .ul__navbar li {
+        list-style: none; }
+        .header .ul__navbar li a {
+          position: relative;
+          color: #ffffff;
+          text-decoration: none; }
+        .header .ul__navbar li a:after {
+          position: absolute;
+          bottom: 7px;
+          left: 0px;
+          width: 100%;
+          height: 4px;
+          background-color: #cfdbd5;
+          content: "";
+          opacity: 0;
+          transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+          transform: translateY(20px); }
+        .header .ul__navbar li a:hover:after {
+          opacity: 1;
+          transform: translateY(15px); }
+      .header .ul__navbar .coloranchor {
+        color: #bbbbbb; }
+    .header .div__social {
+      display: none; } }
 
 .loader__png {
   width: 100%;
@@ -10869,6 +10918,48 @@ textarea.form-control-lg {
       .footer .ul__navbar a:hover:after {
         width: 100%; } }
 
+@media (max-width: 475px) {
+  .footer {
+    grid-area: footer;
+    background-color: #45444d;
+    width: 100%; }
+    .footer img {
+      padding-top: 2%;
+      width: 100px;
+      position: relative;
+      left: 40%; }
+    .footer .navbar {
+      margin-top: 2%;
+      display: flex;
+      justify-content: center; }
+    .footer .ul__navbar {
+      display: flex;
+      gap: 10px;
+      margin-right: 4%; }
+      .footer .ul__navbar li {
+        list-style: none; }
+      .footer .ul__navbar a {
+        position: relative;
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        margin-top: 0;
+        letter-spacing: 0.5px;
+        padding: 0 10px; }
+      .footer .ul__navbar a:after {
+        content: "";
+        position: absolute;
+        background-color: white;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.3s; }
+      .footer .ul__navbar a:hover {
+        color: #ffffff; }
+      .footer .ul__navbar a:hover:after {
+        width: 100%; } }
+
 /*Variables aside*/
 .div__aside {
   grid-area: aside;
@@ -11556,6 +11647,95 @@ body {
           display: none; }
       .body__index .section__index__top .div__image img {
         width: 200px; }
+      .body__index .section__index__top .button__index {
+        color: #303136;
+        border-color: #303136;
+        height: 35px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 10px;
+        background-color: transparent;
+        border-radius: 5%;
+        cursor: pointer;
+        font-size: small; }
+      .body__index .section__index__top .button__index:hover {
+        background-color: #ef5349;
+        cursor: pointer;
+        color: white; }
+    .body__index .section__index__bottom {
+      background-color: #bbbbbb;
+      width: 100%;
+      height: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; }
+      .body__index .section__index__bottom .div__image__bottom {
+        width: 50%;
+        padding-left: 5%; }
+        .body__index .section__index__bottom .div__image__bottom img {
+          width: 150px; }
+        .body__index .section__index__bottom .div__image__bottom .div__sucursales h3, .body__index .section__index__bottom .div__image__bottom .div__sucursales .h3 {
+          margin-top: 4%;
+          color: #ffffff;
+          font-size: medium; }
+        .body__index .section__index__bottom .div__image__bottom .div__sucursales ul li {
+          list-style: none;
+          font-size: small; }
+          .body__index .section__index__bottom .div__image__bottom .div__sucursales ul li a {
+            text-decoration: none;
+            box-shadow: inset 0 0 0 0 #ef5349;
+            color: #ffffff;
+            margin: 0 -.25rem;
+            padding: 0 .25rem;
+            transition: color .3s ease-in-out, box-shadow .3s ease-in-out; }
+          .body__index .section__index__bottom .div__image__bottom .div__sucursales ul li a:hover {
+            box-shadow: inset 100px 0 0 0 #ef5349;
+            color: white; }
+      .body__index .section__index__bottom .div__p__bottom {
+        width: 50%;
+        text-align: center; }
+        .body__index .section__index__bottom .div__p__bottom p {
+          font-size: small;
+          color: #ffffff; } }
+
+@media (max-width: 475px) {
+  /*Main scss*/
+  body {
+    font-family: 'Roboto', sans-serif; }
+    body .div__grid {
+      display: grid;
+      grid-template-areas: "header" "main" "footer"; }
+  .body__index {
+    background-color: #fff;
+    width: 100%;
+    height: 100%; }
+    .body__index .section__index__top {
+      grid-area: main;
+      width: 100%;
+      padding-top: 12%;
+      display: flex;
+      justify-content: space-around; }
+      .body__index .section__index__top .div__p {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 10%; }
+        .body__index .section__index__top .div__p h1, .body__index .section__index__top .div__p .h1 {
+          color: #ef5349;
+          font-size: 25px;
+          font-weight: 900; }
+        .body__index .section__index__top .div__p h3, .body__index .section__index__top .div__p .h3 {
+          color: #565656;
+          font-size: 15px;
+          font-weight: 700; }
+        .body__index .section__index__top .div__p p {
+          display: none; }
+      .body__index .section__index__top .div__image {
+        margin-top: 8%; }
+        .body__index .section__index__top .div__image img {
+          width: 159px; }
       .body__index .section__index__top .button__index {
         color: #303136;
         border-color: #303136;
