@@ -10267,7 +10267,7 @@ textarea.form-control-lg {
   width: 100%;
   height: 100vh;
   position: fixed;
-  background-color: red;
+  background-color: #ef5349;
   clip-path: circle(150% at 50% 50%);
   transition: clip-path 3s ease-in;
   z-index: 10000; }
