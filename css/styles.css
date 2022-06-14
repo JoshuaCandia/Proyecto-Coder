@@ -11232,21 +11232,21 @@ body {
       .body__index .section__index__bottom .div__image__bottom .div__sucursales ul li {
         list-style: none; }
         .body__index .section__index__bottom .div__image__bottom .div__sucursales ul li a {
+          color: #000;
           text-decoration: none;
-          box-shadow: inset 0 0 0 0 #ef5349;
-          color: #ffffff;
-          margin: 0 -.25rem;
-          padding: 0 .25rem;
-          transition: color .3s ease-in-out, box-shadow .3s ease-in-out; }
+          border: 8px solid;
+          border-image: repeating-linear-gradient(135deg, #ffffff 0 10px, #ffffff 0 20px, #ffffff 0 30px) 8;
+          -webkit-mask: conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0/200% var(--_i, 8px) border-box no-repeat, conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat, linear-gradient(#000 0 0) padding-box no-repeat;
+          transition: .3s, -webkit-mask-position .3s .3s; }
         .body__index .section__index__bottom .div__image__bottom .div__sucursales ul li a:hover {
-          box-shadow: inset 100px 0 0 0 #ef5349;
-          color: white; }
+          --_i: 100%;
+          color: #CC333F;
+          transition: .3s, -webkit-mask-size .3s .3s; }
     .body__index .section__index__bottom .div__p__bottom {
       width: 50%;
       text-align: center; }
       .body__index .section__index__bottom .div__p__bottom p {
-        font-size: 20px;
-        color: #ffffff; }
+        font-size: 20px; }
 
 /*Css media query index*/
 @media (max-width: 1400px) {

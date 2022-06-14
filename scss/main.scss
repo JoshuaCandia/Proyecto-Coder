@@ -32,7 +32,7 @@ body {
 }
 
 .body__index {
-    background-color: map-get($map: $palette, $key:'blanco' );
+    background-color: map-get($map: $palette, $key:'blanco');
     width: 100%;
     height: 100%;
 
@@ -52,19 +52,19 @@ body {
 
 
             h1 {
-                color: $palette-color1;
+                color: map-get($map: $palette, $key:'palette-color1');
                 font-size: 50px;
                 font-weight: 900;
             }
 
             h3 {
-                color: $palette-color4;
+                color: map-get($map: $palette, $key:'palette-color4');
                 font-size: 30px;
                 font-weight: 700;
             }
 
             p {
-                color: $palette-color4;
+                color: map-get($map: $palette, $key:'palette-color4');
                 font-weight: 400;
             }
         }
@@ -76,8 +76,8 @@ body {
         }
 
         .button__index {
-            color: #303136;
-            border-color: #303136;
+            color: map-get($map: $palette, $key:'button-index-primary');
+            border-color: map-get($map: $palette, $key:'button-index-primary');
             height: 50px;
             padding-left: 50px;
             padding-right: 50px;
@@ -88,14 +88,14 @@ body {
         }
 
         .button__index:hover {
-            background-color: $palette-color1;
+            background-color: map-get($map: $palette, $key:'palette-color1');
             cursor: pointer;
             color: white;
         }
     }
 
     .section__index__bottom {
-        background-color: $palette-color3;
+        background-color: map-get($map: $palette, $key:'palette-color3');
         grid-area: main;
         height: 75%;
         width: 100%;
@@ -117,7 +117,7 @@ body {
                 h3 {
                     margin-top: 4%;
                     margin-bottom: 2%S;
-                    color: $palette-color5;
+                    color: map-get($map: $palette, $key:'palette-color5');
                 }
 
                 ul {
@@ -125,17 +125,21 @@ body {
                         list-style: none;
 
                         a {
+                            color: map-get($map: $palette, $key:'negro');
                             text-decoration: none;
-                            box-shadow: inset 0 0 0 0 $palette-color1;
-                            color: $palette-color5;
-                            margin: 0 -.25rem;
-                            padding: 0 .25rem;
-                            transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+                            border: 8px solid;
+                            border-image: repeating-linear-gradient(135deg, #ffffff 0 10px, #ffffff 0 20px, #ffffff 0 30px) 8;
+                            -webkit-mask:
+                                conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
+                                conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat,
+                                linear-gradient(#000 0 0) padding-box no-repeat;
+                            transition: .3s, -webkit-mask-position .3s .3s;
                         }
 
                         a:hover {
-                            box-shadow: inset 100px 0 0 0 $palette-color1;
-                            color: white;
+                            --_i: 100%;
+                            color: #CC333F;
+                            transition: .3s, -webkit-mask-size .3s .3s;
                         }
                     }
                 }
@@ -148,7 +152,7 @@ body {
 
             p {
                 font-size: 20px;
-                color: $palette-color5;
+                color: map-get($map: $palette, $key:'palette-color');
 
             }
         }
@@ -842,9 +846,11 @@ body {
 
                     ul {
                         padding-left: 0;
+
                         li {
                             list-style: none;
                             font-size: small;
+
                             a {
                                 text-decoration: none;
                                 box-shadow: inset 0 0 0 0 $palette-color1;
@@ -897,7 +903,7 @@ body {
     }
 
     .body__index {
-        background-color:map-get($map:$palette , $key:'blanco' );
+        background-color: map-get($map:$palette, $key:'blanco');
         width: 100%;
         height: 100%;
 
@@ -936,10 +942,11 @@ body {
 
             .div__image {
                 position: relative;
-                right:5%;
+                right: 5%;
                 top: 18%;
                 padding-top: 0;
                 padding-right: 0;
+
                 img {
                     width: 130px;
                 }
@@ -972,6 +979,7 @@ body {
             display: flex;
             align-items: flex-start;
             justify-content: flex-start;
+
             .div__image__bottom {
                 width: 40%;
                 margin-top: 25%;
@@ -991,9 +999,11 @@ body {
 
                     ul {
                         padding-left: 0;
+
                         li {
                             list-style: none;
                             font-size: small;
+
                             a {
                                 text-decoration: none;
                                 box-shadow: inset 0 0 0 0 $palette-color1;
