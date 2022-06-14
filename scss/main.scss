@@ -766,7 +766,7 @@ body {
             .div__p {
                 display: flex;
                 justify-content: center;
-                align-items: flex-start;
+                align-items: center;
                 flex-direction: column;
                 text-align: center;
                 padding-left: 10%;
@@ -841,6 +841,7 @@ body {
                     }
 
                     ul {
+                        padding-left: 0;
                         li {
                             list-style: none;
                             font-size: small;
@@ -1018,7 +1019,7 @@ body {
 
                 p {
                     font-size: small;
-                    color: $palette-color5;
+                    color: #000;
 
                 }
             }

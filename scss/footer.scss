@@ -313,10 +313,10 @@
         background-color: $palette-color6;
         width: 100%;
         img {
-            margin-top: 1%;
             width: 120px;
             position: relative;
             left: 45%;
+            top: 10%;
         }
 
         .navbar {
@@ -328,7 +328,7 @@
         .ul__navbar {
             display: flex;
             gap: 20px;
-
+            padding-top: 2%;
             li {
                 list-style: none;
             }
@@ -388,6 +388,7 @@
             display: flex;
             gap: 10px;
             margin-right: 4%;
+            padding-top: 2%;
             li {
                 list-style: none;
             }
