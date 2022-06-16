@@ -10741,9 +10741,9 @@ textarea.form-control-lg {
     text-decoration: none;
     color: #000; }
   .div__aside .div__icons {
-    margin-top: 30%;
+    margin-top: 5%;
     display: flex;
-    justify-content: space-around; }
+    gap: 15%; }
   .div__aside .icon__aside {
     width: 30px;
     background-color: white; }
