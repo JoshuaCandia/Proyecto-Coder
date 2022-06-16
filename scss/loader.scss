@@ -4,7 +4,7 @@
   position: fixed;
   background-color: $palette-color1;
   clip-path: circle(150% at 50% 50%);
-  transition: clip-path 3s ease-in;
+  transition: clip-path 1s ease-in;
   z-index: 10000;
 
   img {
