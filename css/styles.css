@@ -8668,19 +8668,55 @@ textarea.form-control-lg {
         margin-top: 40px;
         margin-bottom: 40px;
         margin-bottom: 20%; }
-        .body__empresa .main__empresa .main__section__empresa-2 .button__empresa {
-          display: none;
-          height: 50px;
-          padding-left: 50px;
-          padding-right: 50px;
-          margin-top: 10px;
-          background-color: transparent;
-          border: 3px solid #FFD743;
-          border-radius: 5%;
-          cursor: pointer; }
-          .body__empresa .main__empresa .main__section__empresa-2 .button__empresa a {
+        .body__empresa .main__empresa .main__section__empresa-2 .button .anchor__presupuesto {
+          text-decoration: none;
+          padding: 3%; }
+          .body__empresa .main__empresa .main__section__empresa-2 .button .anchor__presupuesto .button__presupuesto {
+            padding-bottom: 5%;
+            padding-top: 5%;
+            align-items: center;
+            background-color: #ef5349;
+            border: 2px solid #111;
+            border-radius: 8px;
+            box-sizing: border-box;
+            color: #fff;
+            cursor: pointer;
+            display: flex;
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            height: 48px;
+            justify-content: center;
+            line-height: 24px;
+            max-width: 100%;
+            padding: 0 25px;
+            position: relative;
+            text-align: center;
             text-decoration: none;
-            color: #000; }
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation; }
+            .body__empresa .main__empresa .main__section__empresa-2 .button .anchor__presupuesto .button__presupuesto a {
+              text-decoration: none; }
+          .body__empresa .main__empresa .main__section__empresa-2 .button .anchor__presupuesto .button__presupuesto:after {
+            background-color: #111;
+            border-radius: 8px;
+            content: "";
+            display: block;
+            height: 48px;
+            left: 0;
+            width: 100%;
+            position: absolute;
+            top: -2px;
+            transform: translate(8px, 8px);
+            transition: transform .2s ease-out;
+            z-index: -1; }
+          .body__empresa .main__empresa .main__section__empresa-2 .button .anchor__presupuesto .button__presupuesto:hover:after {
+            transform: translate(0, 0); }
+          .body__empresa .main__empresa .main__section__empresa-2 .button .anchor__presupuesto .button__presupuesto:active {
+            background-color: #ffdeda;
+            outline: 0; }
+          .body__empresa .main__empresa .main__section__empresa-2 .button .anchor__presupuesto .button__presupuesto:hover {
+            outline: 0; }
         .body__empresa .main__empresa .main__section__empresa-2 h3, .body__empresa .main__empresa .main__section__empresa-2 .h3 {
           display: none;
           color: #000;
@@ -9081,56 +9117,54 @@ textarea.form-control-lg {
   color: #000; }
 
 .anchor__presupuesto {
-  text-decoration: none; }
-
-.button__presupuesto {
-  align-items: center;
-  background-color: #ef5349;
-  border: 2px solid #111;
-  border-radius: 8px;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: flex;
-  font-family: Inter, sans-serif;
-  font-size: 16px;
-  height: 48px;
-  justify-content: center;
-  line-height: 24px;
-  max-width: 100%;
-  padding: 0 25px;
-  position: relative;
-  text-align: center;
   text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation; }
-  .button__presupuesto a {
-    text-decoration: none; }
-
-.button__presupuesto:after {
-  background-color: #111;
-  border-radius: 8px;
-  content: "";
-  display: block;
-  height: 48px;
-  left: 0;
-  width: 100%;
-  position: absolute;
-  top: -2px;
-  transform: translate(8px, 8px);
-  transition: transform .2s ease-out;
-  z-index: -1; }
-
-.button__presupuesto:hover:after {
-  transform: translate(0, 0); }
-
-.button__presupuesto:active {
-  background-color: #ffdeda;
-  outline: 0; }
-
-.button__presupuesto:hover {
-  outline: 0; }
+  padding: 35%; }
+  .anchor__presupuesto .button__presupuesto {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    align-items: center;
+    background-color: #ef5349;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation; }
+    .anchor__presupuesto .button__presupuesto a {
+      text-decoration: none; }
+  .anchor__presupuesto .button__presupuesto:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1; }
+  .anchor__presupuesto .button__presupuesto:hover:after {
+    transform: translate(0, 0); }
+  .anchor__presupuesto .button__presupuesto:active {
+    background-color: #ffdeda;
+    outline: 0; }
+  .anchor__presupuesto .button__presupuesto:hover {
+    outline: 0; }
 
 /*Aside Servicios*/
 .div__aside__servicios {
@@ -9205,27 +9239,54 @@ textarea.form-control-lg {
   .section__parrafos h2, .section__parrafos .h2 {
     text-align: center;
     color: #000; }
-  .button__presupuesto {
-    color: #000;
-    font-family: 'Karla', sans-serif;
-    font-size: 20px;
-    width: 30%;
-    height: 15%;
-    background: transparent;
-    border: 1px solid black;
-    padding: 20px;
-    border-radius: 6px;
-    margin-top: 3%;
-    margin-bottom: 7%; }
-  .button__presupuesto:hover {
-    background: #2079b0;
-    background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
-    text-decoration: none;
-    filter: opacity(0.7); }
+  .anchor__presupuesto {
+    text-decoration: none; }
+    .anchor__presupuesto .button__presupuesto {
+      padding-bottom: 5%;
+      padding-top: 5%;
+      align-items: center;
+      background-color: #ef5349;
+      border: 2px solid #111;
+      border-radius: 8px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: flex;
+      font-family: Inter, sans-serif;
+      font-size: 16px;
+      height: 48px;
+      justify-content: center;
+      line-height: 24px;
+      max-width: 100%;
+      padding: 0 25px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation; }
+      .anchor__presupuesto .button__presupuesto a {
+        text-decoration: none; }
+    .anchor__presupuesto .button__presupuesto:after {
+      background-color: #111;
+      border-radius: 8px;
+      content: "";
+      display: block;
+      height: 48px;
+      left: 0;
+      width: 100%;
+      position: absolute;
+      top: -2px;
+      transform: translate(8px, 8px);
+      transition: transform .2s ease-out;
+      z-index: -1; }
+    .anchor__presupuesto .button__presupuesto:hover:after {
+      transform: translate(0, 0); }
+    .anchor__presupuesto .button__presupuesto:active {
+      background-color: #ffdeda;
+      outline: 0; }
+    .anchor__presupuesto .button__presupuesto:hover {
+      outline: 0; }
   /*Aside Servicios*/
   .div__aside__servicios {
     margin-left: 15%;
@@ -9297,26 +9358,54 @@ textarea.form-control-lg {
   .section__parrafos h2, .section__parrafos .h2 {
     text-align: center;
     color: #000; }
-  .button__presupuesto {
-    font-family: 'Karla', sans-serif;
-    font-size: 20px;
-    width: 30%;
-    height: 15%;
-    background: transparent;
-    border: 1px solid black;
-    padding: 20px;
-    border-radius: 6px;
-    margin-top: 3%;
-    margin-bottom: 7%; }
-  .button__presupuesto:hover {
-    background: #2079b0;
-    background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
-    text-decoration: none;
-    filter: opacity(0.7); }
+  .anchor__presupuesto {
+    text-decoration: none; }
+    .anchor__presupuesto .button__presupuesto {
+      padding-bottom: 5%;
+      padding-top: 5%;
+      align-items: center;
+      background-color: #ef5349;
+      border: 2px solid #111;
+      border-radius: 8px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: flex;
+      font-family: Inter, sans-serif;
+      font-size: 16px;
+      height: 48px;
+      justify-content: center;
+      line-height: 24px;
+      max-width: 100%;
+      padding: 0 25px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation; }
+      .anchor__presupuesto .button__presupuesto a {
+        text-decoration: none; }
+    .anchor__presupuesto .button__presupuesto:after {
+      background-color: #111;
+      border-radius: 8px;
+      content: "";
+      display: block;
+      height: 48px;
+      left: 0;
+      width: 100%;
+      position: absolute;
+      top: -2px;
+      transform: translate(8px, 8px);
+      transition: transform .2s ease-out;
+      z-index: -1; }
+    .anchor__presupuesto .button__presupuesto:hover:after {
+      transform: translate(0, 0); }
+    .anchor__presupuesto .button__presupuesto:active {
+      background-color: #ffdeda;
+      outline: 0; }
+    .anchor__presupuesto .button__presupuesto:hover {
+      outline: 0; }
   /*Aside Servicios*/
   .div__aside__servicios {
     margin-left: 15%;
@@ -9388,26 +9477,54 @@ textarea.form-control-lg {
   .section__parrafos h2, .section__parrafos .h2 {
     text-align: center;
     color: #000; }
-  .button__presupuesto {
-    font-family: 'Karla', sans-serif;
-    font-size: 20px;
-    width: 30%;
-    height: 15%;
-    background: transparent;
-    border: 1px solid black;
-    padding: 20px;
-    border-radius: 6px;
-    margin-top: 3%;
-    margin-bottom: 7%; }
-  .button__presupuesto:hover {
-    background: #2079b0;
-    background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
-    text-decoration: none;
-    filter: opacity(0.7); }
+  .anchor__presupuesto {
+    text-decoration: none; }
+    .anchor__presupuesto .button__presupuesto {
+      padding-bottom: 5%;
+      padding-top: 5%;
+      align-items: center;
+      background-color: #ef5349;
+      border: 2px solid #111;
+      border-radius: 8px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: flex;
+      font-family: Inter, sans-serif;
+      font-size: 16px;
+      height: 48px;
+      justify-content: center;
+      line-height: 24px;
+      max-width: 100%;
+      padding: 0 25px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation; }
+      .anchor__presupuesto .button__presupuesto a {
+        text-decoration: none; }
+    .anchor__presupuesto .button__presupuesto:after {
+      background-color: #111;
+      border-radius: 8px;
+      content: "";
+      display: block;
+      height: 48px;
+      left: 0;
+      width: 100%;
+      position: absolute;
+      top: -2px;
+      transform: translate(8px, 8px);
+      transition: transform .2s ease-out;
+      z-index: -1; }
+    .anchor__presupuesto .button__presupuesto:hover:after {
+      transform: translate(0, 0); }
+    .anchor__presupuesto .button__presupuesto:active {
+      background-color: #ffdeda;
+      outline: 0; }
+    .anchor__presupuesto .button__presupuesto:hover {
+      outline: 0; }
   /*Aside Servicios*/
   .div__aside__servicios {
     margin-left: 15%;
@@ -9479,26 +9596,54 @@ textarea.form-control-lg {
   .section__parrafos h2, .section__parrafos .h2 {
     text-align: center;
     color: #000; }
-  .button__presupuesto {
-    font-family: 'Karla', sans-serif;
-    font-size: 20px;
-    width: 30%;
-    height: 15%;
-    background: transparent;
-    border: 1px solid black;
-    padding: 20px;
-    border-radius: 6px;
-    margin-top: 3%;
-    margin-bottom: 7%; }
-  .button__presupuesto:hover {
-    background: #2079b0;
-    background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
-    text-decoration: none;
-    filter: opacity(0.7); }
+  .anchor__presupuesto {
+    text-decoration: none; }
+    .anchor__presupuesto .button__presupuesto {
+      padding-bottom: 5%;
+      padding-top: 5%;
+      align-items: center;
+      background-color: #ef5349;
+      border: 2px solid #111;
+      border-radius: 8px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: flex;
+      font-family: Inter, sans-serif;
+      font-size: 16px;
+      height: 48px;
+      justify-content: center;
+      line-height: 24px;
+      max-width: 100%;
+      padding: 0 25px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation; }
+      .anchor__presupuesto .button__presupuesto a {
+        text-decoration: none; }
+    .anchor__presupuesto .button__presupuesto:after {
+      background-color: #111;
+      border-radius: 8px;
+      content: "";
+      display: block;
+      height: 48px;
+      left: 0;
+      width: 100%;
+      position: absolute;
+      top: -2px;
+      transform: translate(8px, 8px);
+      transition: transform .2s ease-out;
+      z-index: -1; }
+    .anchor__presupuesto .button__presupuesto:hover:after {
+      transform: translate(0, 0); }
+    .anchor__presupuesto .button__presupuesto:active {
+      background-color: #ffdeda;
+      outline: 0; }
+    .anchor__presupuesto .button__presupuesto:hover {
+      outline: 0; }
   /*Aside Servicios*/
   .div__aside__servicios {
     margin-left: 15%;
@@ -9570,26 +9715,54 @@ textarea.form-control-lg {
   .section__parrafos h2, .section__parrafos .h2 {
     text-align: center;
     color: #000; }
-  .button__presupuesto {
-    font-family: 'Karla', sans-serif;
-    font-size: 20px;
-    width: 30%;
-    height: 15%;
-    background: transparent;
-    border: 1px solid black;
-    padding: 20px;
-    border-radius: 6px;
-    margin-top: 3%;
-    margin-bottom: 7%; }
-  .button__presupuesto:hover {
-    background: #2079b0;
-    background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
-    text-decoration: none;
-    filter: opacity(0.7); }
+  .anchor__presupuesto {
+    text-decoration: none; }
+    .anchor__presupuesto .button__presupuesto {
+      padding-bottom: 5%;
+      padding-top: 5%;
+      align-items: center;
+      background-color: #ef5349;
+      border: 2px solid #111;
+      border-radius: 8px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: flex;
+      font-family: Inter, sans-serif;
+      font-size: 16px;
+      height: 48px;
+      justify-content: center;
+      line-height: 24px;
+      max-width: 100%;
+      padding: 0 25px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation; }
+      .anchor__presupuesto .button__presupuesto a {
+        text-decoration: none; }
+    .anchor__presupuesto .button__presupuesto:after {
+      background-color: #111;
+      border-radius: 8px;
+      content: "";
+      display: block;
+      height: 48px;
+      left: 0;
+      width: 100%;
+      position: absolute;
+      top: -2px;
+      transform: translate(8px, 8px);
+      transition: transform .2s ease-out;
+      z-index: -1; }
+    .anchor__presupuesto .button__presupuesto:hover:after {
+      transform: translate(0, 0); }
+    .anchor__presupuesto .button__presupuesto:active {
+      background-color: #ffdeda;
+      outline: 0; }
+    .anchor__presupuesto .button__presupuesto:hover {
+      outline: 0; }
   /*Aside Servicios*/
   .div__aside__servicios {
     margin-left: 15%;
@@ -9682,6 +9855,7 @@ textarea.form-control-lg {
 /*Main Productos*/
 .main__productos {
   margin-left: 5%;
+  margin-bottom: 10%;
   grid-area: main; }
   .main__productos h1, .main__productos .h1 {
     padding-top: 7%;
