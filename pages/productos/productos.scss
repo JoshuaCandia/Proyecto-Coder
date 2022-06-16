@@ -24,7 +24,7 @@ $border-productos:2px solid white;
     grid-area: main;
 
     h1 {
-        padding-top: 5%;
+        padding-top: 7%;
         padding-bottom: 3%;
         text-align: center;
     }
@@ -32,6 +32,9 @@ $border-productos:2px solid white;
     .main__section__productos {
         grid-area: main;
 
+    }
+    .padding-top{
+        padding-top: 15%;
     }
 }
 

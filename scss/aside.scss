@@ -6,7 +6,7 @@ $font-title-p:15px;
 .div__aside {
     grid-area: aside;
     margin-left: 15%;
-    margin-top: 3%;
+    margin-top: 100px;
     padding: 10px;
     height: 100%;
     width: 70%;
@@ -14,14 +14,14 @@ $font-title-p:15px;
 
     h2 {
         text-align: center;
-        color: #FFD743;
+        color: $palette-color1;
     }
 
 
     .div__aside__ul {
         list-style: none;
         padding: 0;
-        font-size: 25px;
+        font-size: 22px;
         text-align: start;
     }
 
@@ -45,7 +45,7 @@ $font-title-p:15px;
     }
 
     .icon__aside {
-        width: 50px;
+        width: 30px;
         background-color: white;
     }
 
@@ -54,7 +54,7 @@ $font-title-p:15px;
 
         img {
             margin-top: 50px;
-            width: 400px;
+            width: 300px;
             height: 100%;
         }
     }
@@ -364,5 +364,5 @@ $font-title-p:15px;
 
 
         }
-    }}
-
+    }
+}

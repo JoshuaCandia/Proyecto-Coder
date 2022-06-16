@@ -9654,11 +9654,13 @@ textarea.form-control-lg {
   margin-left: 5%;
   grid-area: main; }
   .main__productos h1, .main__productos .h1 {
-    padding-top: 5%;
+    padding-top: 7%;
     padding-bottom: 3%;
     text-align: center; }
   .main__productos .main__section__productos {
     grid-area: main; }
+  .main__productos .padding-top {
+    padding-top: 15%; }
 
 /*Css media query productos*/
 /*Header and Footer*/
@@ -10719,18 +10721,18 @@ textarea.form-control-lg {
 .div__aside {
   grid-area: aside;
   margin-left: 15%;
-  margin-top: 3%;
+  margin-top: 100px;
   padding: 10px;
   height: 100%;
   width: 70%;
   background-color: transparent; }
   .div__aside h2, .div__aside .h2 {
     text-align: center;
-    color: #FFD743; }
+    color: #ef5349; }
   .div__aside .div__aside__ul {
     list-style: none;
     padding: 0;
-    font-size: 25px;
+    font-size: 22px;
     text-align: start; }
   .div__aside .div__aside__ul__li {
     padding-top: 5rem;
@@ -10743,13 +10745,13 @@ textarea.form-control-lg {
     display: flex;
     justify-content: space-around; }
   .div__aside .icon__aside {
-    width: 50px;
+    width: 30px;
     background-color: white; }
   .div__aside .images__aside {
     margin-top: 20%; }
     .div__aside .images__aside img {
       margin-top: 50px;
-      width: 400px;
+      width: 300px;
       height: 100%; }
 
 /*Media querys responsive*/
