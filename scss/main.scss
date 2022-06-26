@@ -364,7 +364,7 @@ body {
 
             .div__image {
                 img {
-                    width: 500px;
+                    width: 400px;
                 }
             }
 
@@ -402,7 +402,7 @@ body {
                 padding-left: 5%;
 
                 img {
-                    width: 600px;
+                    width: 450px;
 
                 }
 
@@ -508,7 +508,7 @@ body {
 
             .div__image {
                 img {
-                    width: 500px;
+                    width: 400px;
                 }
             }
 
@@ -534,7 +534,7 @@ body {
         .section__index__bottom {
             background-color: $palette-color3;
             grid-area: main;
-            height: 75%;
+            height: 90%;
             width: 100%;
             display: flex;
             align-items: center;
@@ -546,7 +546,7 @@ body {
                 padding-left: 5%;
 
                 img {
-                    width: 600px;
+                    width:370px;
 
                 }
 
@@ -628,18 +628,20 @@ body {
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
-                padding-left: 10%;
+                padding-left: 3%;
 
 
                 h1 {
                     color: $palette-color1;
                     font-size: 50px;
                     font-weight: 900;
+                    
                 }
 
                 h3 {
+                    text-align: center;
                     color: $palette-color4;
-                    font-size: 30px;
+                    font-size: 25px;
                     font-weight: 700;
                 }
 
@@ -650,8 +652,10 @@ body {
             }
 
             .div__image {
+                margin-top: 15%;
                 img {
-                    width: 500px;
+                    width: 200px;
+                 
                 }
             }
 
@@ -677,7 +681,7 @@ body {
         .section__index__bottom {
             background-color: $palette-color3;
             grid-area: main;
-            height: 75%;
+            height: 90%;
             width: 100%;
             display: flex;
             align-items: center;
@@ -689,14 +693,15 @@ body {
                 padding-left: 5%;
 
                 img {
-                    width: 600px;
+                    width: 270px;
+                    padding-top: 15%;
 
                 }
 
                 .div__sucursales {
                     h3 {
                         margin-top: 4%;
-                        margin-bottom: 2%S;
+                        margin-bottom: 2%;
                         color: $palette-color5;
                     }
 
@@ -727,7 +732,7 @@ body {
                 text-align: center;
 
                 p {
-                    font-size: 20px;
+                    font-size: 15px;
                     color: $palette-color5;
 
                 }

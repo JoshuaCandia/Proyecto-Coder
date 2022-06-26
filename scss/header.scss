@@ -278,6 +278,7 @@
         height: 100%;
         display: flex;
         align-items: center;
+        justify-content: flex-start;
 
         .div__logo {
             .logo {
@@ -289,14 +290,14 @@
 
             font-size: 19px;
             display: flex;
-            gap: 3%;
+            gap: 5%;
 
             li {
                 list-style: none;
 
                 a {
                     position: relative;
-                    color: #000;
+                    color:$palette-color5;
                     text-decoration: none;
                 }
 
@@ -356,24 +357,25 @@
             }
         }
         nav{
-            margin-left: 10%;
+            margin-left: 3%;
+            margin-bottom: 3%;
         }
         .ul__navbar {
             display: flex;
-            align-items: center;
+            justify-content: flex-start;
             width: 50%;
-            font-size: $font-size-header-sm;
+            font-size: 17px;
             margin-top: 5px;
-            gap: 10%;
+            gap: 4%;
     
             li {
                 list-style: none;
     
                 a {
-    
                     position: relative;
                     color: $palette-color5;
                     text-decoration: none;
+                    font-size: 16px;
                 }
     
                 a:after {
