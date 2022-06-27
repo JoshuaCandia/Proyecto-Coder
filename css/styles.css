@@ -8812,10 +8812,9 @@ textarea.form-control-lg {
         margin-bottom: 20%; }
         .body__empresa .main__empresa .main__section__empresa-2 .button__empresa {
           display: none;
-          height: 50px;
+          height: 45px;
           padding-left: 50px;
-          padding-right: 50px;
-          margin-top: 10px;
+          margin-top: 25px;
           background-color: transparent;
           border: 3px solid #FFD743;
           border-radius: 5%;
@@ -8884,13 +8883,15 @@ textarea.form-control-lg {
       display: flex;
       grid-area: main;
       width: 100%;
-      height: 60%; }
+      height: 100%; }
+      .body__empresa .main__empresa .button {
+        display: none; }
       .body__empresa .main__empresa .main__section__empresa {
         width: 100%; }
       .body__empresa .main__empresa .main__section__div__empresa {
         border: 2px solid white;
-        height: 20vh;
-        width: 60%;
+        height: 25vh;
+        width: 80%;
         background-image: url(/images/index2.jpeg);
         background-repeat: no-repeat;
         background-position: center;
@@ -8904,8 +8905,8 @@ textarea.form-control-lg {
           font-size: 20px; }
       .body__empresa .main__empresa .main__p {
         margin-top: 50px;
-        width: 40%;
-        height: 24%;
+        width: 70%;
+        height: 17%;
         text-align: center;
         border-left: #FFD743 5px solid;
         border-top-left-radius: 20px; }
@@ -8917,47 +8918,31 @@ textarea.form-control-lg {
         margin-bottom: 40px;
         margin-bottom: 20%; }
         .body__empresa .main__empresa .main__section__empresa-2 .button__empresa {
-          display: none;
-          height: 50px;
-          padding-left: 50px;
-          padding-right: 50px;
-          margin-top: 10px;
-          background-color: transparent;
-          border: 3px solid #FFD743;
-          border-radius: 5%;
-          cursor: pointer; }
+          display: none; }
           .body__empresa .main__empresa .main__section__empresa-2 .button__empresa a {
             text-decoration: none;
             color: #000; }
-        .body__empresa .main__empresa .main__section__empresa-2 h3, .body__empresa .main__empresa .main__section__empresa-2 .h3 {
-          display: none;
-          color: #000;
-          text-align: start; }
-      .body__empresa .main__empresa .button__empresa:hover {
-        border: 3px solid #000;
-        background: #FFD743;
-        text-decoration: none;
-        filter: opacity(0.7);
-        cursor: pointer; }
-        .body__empresa .main__empresa .button__empresa:hover a {
-          color: #fff; }
-      .body__empresa .main__empresa .main__section__div__parrafos {
+    .body__empresa h3, .body__empresa .h3 {
+      color: #000;
+      text-align: start;
+      padding-top: 20%; }
+      .body__empresa h3 .main__section__div__parrafos, .body__empresa .h3 .main__section__div__parrafos {
         display: block;
-        width: 40%;
+        width: 70%;
         text-align: center;
         margin-top: 0px;
         margin-bottom: 20px; }
-      .body__empresa .main__empresa .div__parrafo-1 {
+      .body__empresa h3 .div__parrafo-1, .body__empresa .h3 .div__parrafo-1 {
         margin-top: 10px;
         margin-bottom: 50px;
         display: block;
         border-left: #FFD743 5px solid;
         border-top-left-radius: 20px; }
-      .body__empresa .main__empresa .div__parrafo-2 {
+      .body__empresa h3 .div__parrafo-2, .body__empresa .h3 .div__parrafo-2 {
         display: block;
         border-left: #FFD743 5px solid;
         border-top-left-radius: 20px; }
-      .body__empresa .main__empresa h3, .body__empresa .main__empresa .h3 {
+      .body__empresa h3 h3, .body__empresa .h3 h3, .body__empresa h3 .h3, .body__empresa .h3 .h3 {
         text-align: start; }
     .body__empresa .images__aside {
       margin-top: 20%; }
@@ -9035,24 +9020,10 @@ textarea.form-control-lg {
           .body__empresa .main__empresa .main__section__empresa-2 .button__empresa a {
             text-decoration: none;
             color: #000; }
-        .body__empresa .main__empresa .main__section__empresa-2 h3, .body__empresa .main__empresa .main__section__empresa-2 .h3 {
-          display: none;
-          color: #000;
-          text-align: start; }
-      .body__empresa .main__empresa .button__empresa:hover {
-        border: 3px solid #000;
-        background: #FFD743;
-        text-decoration: none;
-        filter: opacity(0.7);
-        cursor: pointer; }
-        .body__empresa .main__empresa .button__empresa:hover a {
-          color: #fff; }
+      .body__empresa .main__empresa h3, .body__empresa .main__empresa .h3 {
+        display: none; }
       .body__empresa .main__empresa .main__section__div__parrafos {
-        display: block;
-        width: 60%;
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 20px; }
+        display: none; }
       .body__empresa .main__empresa .div__parrafo-1 {
         margin-top: 10px;
         margin-bottom: 50px;
@@ -9932,7 +9903,7 @@ textarea.form-control-lg {
     display: flex;
     align-items: center; }
     .header .div__logo .logo {
-      width: 250px; }
+      width: 190px; }
     .header .ul__navbar {
       font-size: 29px;
       display: flex;
@@ -9942,7 +9913,7 @@ textarea.form-control-lg {
         list-style: none; }
         .header .ul__navbar li a {
           position: relative;
-          color: #000;
+          color: #ffffff;
           text-decoration: none; }
         .header .ul__navbar li a:after {
           position: absolute;
@@ -9960,7 +9931,8 @@ textarea.form-control-lg {
           transform: translateY(15px); }
     .header .div__social {
       display: block;
-      margin-top: 15px; }
+      margin-top: 15px;
+      margin-left: 5%; }
       .header .div__social img {
         width: 25px; }
       .header .div__social a {
@@ -10021,7 +9993,7 @@ textarea.form-control-lg {
         list-style: none; }
         .header .ul__navbar li a {
           position: relative;
-          color: #000;
+          color: #ffffff;
           text-decoration: none; }
         .header .ul__navbar li a:after {
           position: absolute;
@@ -10882,7 +10854,7 @@ textarea.form-control-lg {
       justify-content: center; }
     .footer .ul__navbar {
       display: flex;
-      gap: 20px;
+      gap: 10px;
       padding-top: 2%; }
       .footer .ul__navbar li {
         list-style: none; }
@@ -11269,6 +11241,8 @@ body {
     background-color: #fff;
     width: 100%;
     height: 100%; }
+    .body__index .loader__png {
+      display: none; }
     .body__index .section__index__top {
       grid-area: main;
       height: 72%;

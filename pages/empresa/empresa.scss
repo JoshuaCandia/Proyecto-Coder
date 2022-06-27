@@ -593,10 +593,9 @@
 
                 .button__empresa {
                     display: none;
-                    height: 50px;
+                    height: 45px;
                     padding-left: 50px;
-                    padding-right: 50px;
-                    margin-top: 10px;
+                    margin-top: 25px;
                     background-color: transparent;
                     border: 3px solid #FFD743;
                     border-radius: 5%;
@@ -706,8 +705,11 @@
             display: flex;
             grid-area: main;
             width: 100%;
-            height: 60%;
+            height: 100%;
 
+            .button {
+                display: none;
+            }
 
             .main__section__empresa {
                 width: 100%;
@@ -715,8 +717,8 @@
 
             .main__section__div__empresa {
                 border: 2px solid white;
-                height: 20vh;
-                width: 60%;
+                height: 25vh;
+                width: 80%;
                 background-image: url(/images/index2.jpeg);
                 background-repeat: no-repeat;
                 background-position: center;
@@ -735,8 +737,8 @@
 
             .main__p {
                 margin-top: 50px;
-                width: 40%;
-                height: 24%;
+                width: 70%;
+                height: 17%;
                 text-align: center;
                 @include border-yellow;
             }
@@ -751,14 +753,6 @@
 
                 .button__empresa {
                     display: none;
-                    height: 50px;
-                    padding-left: 50px;
-                    padding-right: 50px;
-                    margin-top: 10px;
-                    background-color: transparent;
-                    border: 3px solid #FFD743;
-                    border-radius: 5%;
-                    cursor: pointer;
 
                     a {
                         text-decoration: none;
@@ -766,28 +760,18 @@
                     }
                 }
 
-                h3 {
-                    display: none;
-                    color: #000;
-                    text-align: start;
-                }
-            }
 
-            .button__empresa:hover {
-                border: 3px solid #000;
-                background: #FFD743;
-                text-decoration: none;
-                filter: opacity(.7);
-                cursor: pointer;
-
-                a {
-                    color: #fff;
-                }
             }
+        }
+
+        h3 {
+            color: #000;
+            text-align: start;
+            padding-top: 20%;
 
             .main__section__div__parrafos {
                 display: block;
-                width: 40%;
+                width: 70%;
                 text-align: center;
                 margin-top: 0px;
                 margin-bottom: 20px;
@@ -924,32 +908,17 @@
                     }
                 }
 
-                h3 {
-                    display: none;
-                    color: #000;
-                    text-align: start;
-                }
+
             }
 
-            .button__empresa:hover {
-                border: 3px solid #000;
-                background: #FFD743;
-                text-decoration: none;
-                filter: opacity(.7);
-                cursor: pointer;
-
-                a {
-                    color: #fff;
-                }
+            h3 {
+                display: none;
             }
+
+           
 
             .main__section__div__parrafos {
-                display: block;
-                width: 60%;
-                text-align: center;
-                margin-top: 50px;
-                margin-bottom: 20px;
-
+                display: none;
             }
 
 
