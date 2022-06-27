@@ -170,7 +170,7 @@
 
                 a {
                     position: relative;
-                    color: #000;
+                    color: $palette-color5;
                     text-decoration: none;
                 }
 
@@ -446,11 +446,11 @@
         }
         .ul__navbar {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             width: 50%;
-            font-size: $font-size-header-extra-sm;
+            font-size: 8px;
             margin-top: 0;
-            gap: 7%;
+            gap: 4%;
     
             li {
                 list-style: none;
@@ -460,6 +460,7 @@
                     position: relative;
                     color: $palette-color5;
                     text-decoration: none;
+                    font-size: 14px;
                 }
     
                 a:after {

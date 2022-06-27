@@ -390,7 +390,7 @@ body {
         .section__index__bottom {
             background-color: $palette-color3;
             grid-area: main;
-            height: 75%;
+            height: 88%;
             width: 100%;
             display: flex;
             align-items: center;
@@ -1034,7 +1034,7 @@ body {
 
                 p {
                     font-size: small;
-                    color: #000;
+                    color: $palette-color5;
 
                 }
             }

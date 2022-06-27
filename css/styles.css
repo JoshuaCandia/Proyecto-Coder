@@ -9982,7 +9982,7 @@ textarea.form-control-lg {
         list-style: none; }
         .header .ul__navbar li a {
           position: relative;
-          color: #000;
+          color: #ffffff;
           text-decoration: none; }
         .header .ul__navbar li a:after {
           position: absolute;
@@ -10164,17 +10164,18 @@ textarea.form-control-lg {
       margin-bottom: 10px; }
     .header .ul__navbar {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       width: 50%;
-      font-size: 10px;
+      font-size: 8px;
       margin-top: 0;
-      gap: 7%; }
+      gap: 4%; }
       .header .ul__navbar li {
         list-style: none; }
         .header .ul__navbar li a {
           position: relative;
           color: #ffffff;
-          text-decoration: none; }
+          text-decoration: none;
+          font-size: 14px; }
         .header .ul__navbar li a:after {
           position: absolute;
           bottom: 7px;
@@ -11396,7 +11397,7 @@ body {
     .body__index .section__index__bottom {
       background-color: #bbbbbb;
       grid-area: main;
-      height: 75%;
+      height: 88%;
       width: 100%;
       display: flex;
       align-items: center;
@@ -11789,4 +11790,4 @@ body {
         text-align: center; }
         .body__index .section__index__bottom .div__p__bottom p {
           font-size: small;
-          color: #000; } }
+          color: #ffffff; } }
