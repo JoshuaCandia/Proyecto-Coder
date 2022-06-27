@@ -8024,7 +8024,7 @@ textarea.form-control-lg {
     grid-area: aside; }
   /*iframe contacto*/
   .iframe__contacto {
-    width: 700px;
+    width: 600px;
     height: 300px;
     margin-left: 8%;
     /*Footer Contacto*/ }
@@ -8094,8 +8094,8 @@ textarea.form-control-lg {
     grid-area: aside; }
   /*iframe contacto*/
   .iframe__contacto {
-    width: 700px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
     margin-left: 8%;
     /*Footer Contacto*/ }
   .footer-contacto {
@@ -8164,8 +8164,8 @@ textarea.form-control-lg {
     grid-area: aside; }
   /*iframe contacto*/
   .iframe__contacto {
-    width: 700px;
-    height: 300px;
+    width: 350px;
+    height: 220px;
     margin-left: 8%;
     /*Footer Contacto*/ }
   .footer-contacto {
@@ -8234,8 +8234,8 @@ textarea.form-control-lg {
     grid-area: aside; }
   /*iframe contacto*/
   .iframe__contacto {
-    width: 700px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     margin-left: 8%;
     /*Footer Contacto*/ }
   .footer-contacto {
@@ -9840,9 +9840,7 @@ textarea.form-control-lg {
 /*Css media query productos*/
 @media (max-width: 992px) {
   .card-title {
-    display: none; }
-  .card {
-    border: none; } }
+    display: none; } }
 
 /*Header and Footer*/
 /*Paleta de Colores*/
