@@ -9838,6 +9838,12 @@ textarea.form-control-lg {
     padding-top: 15%; }
 
 /*Css media query productos*/
+@media (max-width: 992px) {
+  .card-title {
+    display: none; }
+  .card {
+    border: none; } }
+
 /*Header and Footer*/
 /*Paleta de Colores*/
 /*Variables header*/
