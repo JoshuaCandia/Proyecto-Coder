@@ -522,7 +522,6 @@
             display: flex;
             align-items: center;
             width: 50%;
-            font-size: $font-size-header-extra-sm;
             margin-top: 0;
             gap: 7%;
     
@@ -534,6 +533,7 @@
                     position: relative;
                     color: $palette-color5;
                     text-decoration: none;
+                    font-size:13px;
                 }
     
                 a:after {
