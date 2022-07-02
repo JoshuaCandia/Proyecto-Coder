@@ -10436,11 +10436,10 @@ textarea.form-control-lg {
         width: 100%; } }
 
 @media (max-width: 768px) {
+  .footer__index {
+    display: none; }
   .footer {
     display: none; } }
-
-.footer__index {
-  display: none; }
 
 /*Variables aside*/
 .div__aside {
