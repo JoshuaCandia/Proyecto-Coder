@@ -268,3 +268,11 @@
         }
     }
 }
+@media (max-width: 768px){
+    .footer{
+        display: none;
+    }
+}
+.footer__index{
+    display: none;
+}

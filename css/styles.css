@@ -8872,9 +8872,9 @@ textarea.form-control-lg {
       display: grid;
       width: 100%;
       height: 100%;
-      grid-template-areas: 'header header' 'main aside' 'footer footer';
-      grid-template-columns: 70% 30%;
-      grid-template-rows: auto auto; }
+      grid-template-areas: 'header' 'main' 'aside' 'footer';
+      grid-template-columns: 100%;
+      grid-template-rows: auto; }
     .body__empresa .header__index {
       grid-area: header; }
     .body__empresa .main__empresa {
@@ -8882,7 +8882,7 @@ textarea.form-control-lg {
       margin-left: 5%;
       display: flex;
       grid-area: main;
-      width: 100%;
+      width: 90%;
       height: 100%; }
       .body__empresa .main__empresa .button {
         display: none; }
@@ -8891,7 +8891,7 @@ textarea.form-control-lg {
       .body__empresa .main__empresa .main__section__div__empresa {
         border: 2px solid white;
         height: 25vh;
-        width: 80%;
+        width: 70%;
         background-image: url(/images/index2.jpeg);
         background-repeat: no-repeat;
         background-position: center;
@@ -8915,8 +8915,7 @@ textarea.form-control-lg {
         justify-content: space-around;
         gap: 30%;
         margin-top: 40px;
-        margin-bottom: 40px;
-        margin-bottom: 20%; }
+        margin-bottom: 0; }
         .body__empresa .main__empresa .main__section__empresa-2 .button__empresa {
           display: none; }
           .body__empresa .main__empresa .main__section__empresa-2 .button__empresa a {
@@ -8964,9 +8963,9 @@ textarea.form-control-lg {
       display: grid;
       width: 100%;
       height: 100%;
-      grid-template-areas: 'header header' 'main aside' 'footer footer';
-      grid-template-columns: 70% 30%;
-      grid-template-rows: auto auto; }
+      grid-template-areas: 'header' 'main' 'aside' 'footer';
+      grid-template-columns: 100%;
+      grid-template-rows: auto; }
     .body__empresa .header__index {
       grid-area: header; }
     .body__empresa .main__empresa {
@@ -8974,12 +8973,12 @@ textarea.form-control-lg {
       margin-left: 5%;
       display: flex;
       grid-area: main;
-      width: 100%;
+      width: 90%;
       height: 60%; }
       .body__empresa .main__empresa .main__section__empresa {
         width: 100%; }
       .body__empresa .main__empresa .main__section__div__empresa {
-        border: 2px solid white;
+        border: 1px solid #ef5349;
         height: 17vh;
         width: 80%;
         background-image: url(/images/index2.jpeg);
@@ -9008,18 +9007,7 @@ textarea.form-control-lg {
         margin-bottom: 40px;
         margin-bottom: 20%; }
         .body__empresa .main__empresa .main__section__empresa-2 .button__empresa {
-          display: none;
-          height: 50px;
-          padding-left: 50px;
-          padding-right: 50px;
-          margin-top: 10px;
-          background-color: transparent;
-          border: 3px solid #FFD743;
-          border-radius: 5%;
-          cursor: pointer; }
-          .body__empresa .main__empresa .main__section__empresa-2 .button__empresa a {
-            text-decoration: none;
-            color: #000; }
+          display: none; }
       .body__empresa .main__empresa h3, .body__empresa .main__empresa .h3 {
         display: none; }
       .body__empresa .main__empresa .main__section__div__parrafos {
@@ -9658,18 +9646,18 @@ textarea.form-control-lg {
     background-color: #fff; }
   .grid__container__servicios {
     display: grid;
-    grid-template-areas: "main aside" "footer footer";
-    grid-template-columns: 70% 30%;
-    grid-template-rows: auto auto; }
+    grid-template-areas: "header" "main" "aside" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto; }
   .main__servicios {
     grid-area: main;
     margin-left: 5%;
-    width: 100%; }
+    width: 90%; }
   /*Main servicios*/
   .div__titulo {
     display: flex;
     border: 2px solid black;
-    width: 70%;
+    width: 95%;
     height: 30vh;
     background-image: url(../images/contacto.jpg);
     background-repeat: no-repeat;
@@ -9681,7 +9669,7 @@ textarea.form-control-lg {
     .div__titulo h1, .div__titulo .h1 {
       color: #fff; }
   .section__parrafos {
-    width: 60%;
+    width: 90%;
     text-align: start; }
   .section__parrafos h2, .section__parrafos .h2 {
     text-align: center;
@@ -9763,13 +9751,7 @@ textarea.form-control-lg {
       display: flex;
       justify-content: space-around; }
     .div__aside__servicios .icon__aside {
-      width: 50px; }
-  .footer__servicios {
-    grid-area: footer;
-    margin-top: 5%; }
-    .footer__servicios p {
-      margin-left: 50px;
-      color: #222; } }
+      width: 50px; } }
 
 .loader__servicios {
   width: 100%;
@@ -9838,9 +9820,33 @@ textarea.form-control-lg {
     padding-top: 15%; }
 
 /*Css media query productos*/
-@media (max-width: 992px) {
-  .card-title {
-    display: none; } }
+@media (max-width: 768px) {
+  .body__productos {
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); }
+  .grid__container__productos {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: 'header' 'main' ' aside' 'footer';
+    grid-template-columns: 100%;
+    grid-template-rows: auto; }
+  /*Main Productos*/
+  .main__productos {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 10%;
+    grid-area: main; }
+    .main__productos h1, .main__productos .h1 {
+      padding-top: 7%;
+      padding-bottom: 3%;
+      text-align: center; }
+    .main__productos .main__section__productos {
+      grid-area: main; }
+    .main__productos .padding-top {
+      padding-top: 15%; }
+  .card-text {
+    font-size: 15px;
+    text-align: center; } }
 
 /*Header and Footer*/
 /*Paleta de Colores*/
@@ -10429,6 +10435,13 @@ textarea.form-control-lg {
       .footer .ul__navbar a:hover:after {
         width: 100%; } }
 
+@media (max-width: 768px) {
+  .footer {
+    display: none; } }
+
+.footer__index {
+  display: none; }
+
 /*Variables aside*/
 .div__aside {
   grid-area: aside;
@@ -10602,23 +10615,23 @@ textarea.form-control-lg {
       display: flex;
       justify-content: space-around; }
     .div__aside .icon__aside {
-      width: 50px;
+      width: 35px;
       background-color: white; }
     .div__aside .images__aside {
       margin-top: 20%; }
       .div__aside .images__aside img {
         margin-top: 50px;
-        width: 400px;
-        height: 190px; } }
+        width: 70%;
+        height: 100%; } }
 
 @media (max-width: 1400px) and (max-width: 576px) {
   .div__aside {
     grid-area: aside;
-    margin-left: 10%;
+    margin-left: 0;
     margin-top: 3%;
     padding: 10px;
     height: 100%;
-    width: 70%;
+    width: 100%;
     background-color: transparent; }
     .div__aside h2, .div__aside .h2 {
       font-size: 20px;
@@ -10627,7 +10640,8 @@ textarea.form-control-lg {
     .div__aside .div__aside__ul {
       list-style: none;
       padding: 0;
-      font-size: 15px;
+      margin-left: 20%;
+      font-size: 25px;
       text-align: start; }
     .div__aside .div__aside__ul__li {
       padding-top: 5rem;
@@ -10640,13 +10654,16 @@ textarea.form-control-lg {
       display: flex;
       justify-content: space-around; }
     .div__aside .icon__aside {
-      width: 25px;
+      width: 40px;
       background-color: white; }
     .div__aside .images__aside {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       margin-top: 20%; }
       .div__aside .images__aside img {
         margin-top: 50px;
-        width: 400px;
+        width: 70%;
         height: 100%; } }
 
 /*Main scss*/
