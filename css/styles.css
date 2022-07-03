@@ -10710,8 +10710,13 @@ body {
       .body__index .section__index__top .div__p p {
         color: #565656;
         font-weight: 400; }
-    .body__index .section__index__top .div__image img {
-      width: 500px; }
+    .body__index .section__index__top .div__image {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .body__index .section__index__top .div__image img {
+        width: 50%; }
     .body__index .section__index__top .button__index {
       color: #303136;
       border-color: #303136;
@@ -10865,13 +10870,15 @@ body {
       height: 72%;
       width: 100%;
       display: flex;
-      justify-content: space-around; }
+      justify-content: space-between; }
       .body__index .section__index__top .div__p {
+        width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-left: 10%; }
+        padding-left: 10%;
+        text-align: center; }
         .body__index .section__index__top .div__p h1, .body__index .section__index__top .div__p .h1 {
           color: #ef5349;
           font-size: 50px;
@@ -10883,8 +10890,10 @@ body {
         .body__index .section__index__top .div__p p {
           color: #565656;
           font-weight: 400; }
-      .body__index .section__index__top .div__image img {
-        width: 500px; }
+      .body__index .section__index__top .div__image {
+        width: 50%; }
+        .body__index .section__index__top .div__image img {
+          width: 75%; }
       .body__index .section__index__top .button__index {
         color: #303136;
         border-color: #303136;
@@ -10911,7 +10920,7 @@ body {
         width: 50%;
         padding-left: 5%; }
         .body__index .section__index__bottom .div__image__bottom img {
-          width: 600px; }
+          width: 100%; }
         .body__index .section__index__bottom .div__image__bottom .div__sucursales h3, .body__index .section__index__bottom .div__image__bottom .div__sucursales .h3 {
           margin-top: 4%;
           margin-bottom: 2%S;
@@ -10935,7 +10944,7 @@ body {
           font-size: 20px;
           color: #ffffff; } }
 
-@media (max-width: 992px) {
+@media (max-width: 996px) {
   /*Main scss*/
   body {
     font-family: 'Roboto', sans-serif; }
@@ -10957,7 +10966,8 @@ body {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-left: 10%; }
+        padding-left: 10%;
+        width: 45%; }
         .body__index .section__index__top .div__p h1, .body__index .section__index__top .div__p .h1 {
           color: #ef5349;
           font-size: 50px;
@@ -10969,8 +10979,11 @@ body {
         .body__index .section__index__top .div__p p {
           color: #565656;
           font-weight: 400; }
-      .body__index .section__index__top .div__image img {
-        width: 500px; }
+      .body__index .section__index__top .div__image {
+        margin-top: 0;
+        width: 45%; }
+        .body__index .section__index__top .div__image img {
+          width: 100%; }
       .body__index .section__index__top .button__index {
         color: #303136;
         border-color: #303136;
@@ -10988,7 +11001,7 @@ body {
     .body__index .section__index__bottom {
       background-color: #bbbbbb;
       grid-area: main;
-      height: 75%;
+      height: 85%;
       width: 100%;
       display: flex;
       align-items: center;
@@ -10997,7 +11010,7 @@ body {
         width: 50%;
         padding-left: 5%; }
         .body__index .section__index__bottom .div__image__bottom img {
-          width: 600px; }
+          width: 100%; }
         .body__index .section__index__bottom .div__image__bottom .div__sucursales h3, .body__index .section__index__bottom .div__image__bottom .div__sucursales .h3 {
           margin-top: 4%;
           margin-bottom: 2%S;
@@ -11044,7 +11057,8 @@ body {
         align-items: center;
         flex-direction: column;
         padding-left: 10%;
-        text-align: center; }
+        text-align: center;
+        width: 45%; }
         .body__index .section__index__top .div__p h1, .body__index .section__index__top .div__p .h1 {
           color: #ef5349;
           font-size: 50px;
@@ -11056,8 +11070,11 @@ body {
         .body__index .section__index__top .div__p p {
           color: #565656;
           font-weight: 400; }
-      .body__index .section__index__top .div__image img {
-        width: 500px; }
+      .body__index .section__index__top .div__image {
+        margin-top: 0;
+        width: 45%; }
+        .body__index .section__index__top .div__image img {
+          width: 100%; }
       .body__index .section__index__top .button__index {
         color: #303136;
         border-color: #303136;
@@ -11082,9 +11099,10 @@ body {
       justify-content: center; }
       .body__index .section__index__bottom .div__image__bottom {
         width: 50%;
-        padding-left: 5%; }
+        padding-left: 5%;
+        padding-top: 10%; }
         .body__index .section__index__bottom .div__image__bottom img {
-          width: 600px; }
+          width: 100%; }
         .body__index .section__index__bottom .div__image__bottom .div__sucursales h3, .body__index .section__index__bottom .div__image__bottom .div__sucursales .h3 {
           margin-top: 4%;
           margin-bottom: 2%S;
@@ -11122,7 +11140,7 @@ body {
     .body__index .section__index__top {
       grid-area: main;
       width: 100%;
-      padding-top: 12%;
+      padding-top: 0;
       display: flex;
       justify-content: space-around; }
       .body__index .section__index__top .div__p {
@@ -11131,7 +11149,8 @@ body {
         align-items: center;
         flex-direction: column;
         text-align: center;
-        padding-left: 10%; }
+        padding-left: 10%;
+        width: 50%; }
         .body__index .section__index__top .div__p h1, .body__index .section__index__top .div__p .h1 {
           color: #ef5349;
           font-size: 25px;
@@ -11142,8 +11161,11 @@ body {
           font-weight: 700; }
         .body__index .section__index__top .div__p p {
           display: none; }
-      .body__index .section__index__top .div__image img {
-        width: 200px; }
+      .body__index .section__index__top .div__image {
+        margin-top: 0;
+        width: 45%; }
+        .body__index .section__index__top .div__image img {
+          width: 100%; }
       .body__index .section__index__top .button__index {
         color: #303136;
         border-color: #303136;
@@ -11170,7 +11192,7 @@ body {
         width: 50%;
         padding-left: 5%; }
         .body__index .section__index__bottom .div__image__bottom img {
-          width: 150px; }
+          width: 100%; }
         .body__index .section__index__bottom .div__image__bottom .div__sucursales h3, .body__index .section__index__bottom .div__image__bottom .div__sucursales .h3 {
           margin-top: 4%;
           color: #ffffff;
