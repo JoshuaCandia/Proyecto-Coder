@@ -456,12 +456,13 @@
     .grid__container__contacto {
         display: grid;
         grid-template-areas:
-            "header header"
-            "main aside"
-            "footer footer";
-        grid-template-columns: 70% 30%;
-        grid-template-rows: auto auto;
-        margin-top: 3%;
+            "header"
+            "main"
+            "aside"
+            "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        margin-top: 0;
     }
 
     /*Header Contacto*/
@@ -472,10 +473,10 @@
 
     /*Main Contacto*/
     .div__imagenPrincipal {
-        margin-left: 8%;
+        margin-left: 1%;
         display: flex;
         border: 2px solid white;
-        width: 70%;
+        width: 98%;
         height: 27vh;
         background-image: url(/images/index3.jpeg);
         background-position: center;
@@ -487,21 +488,29 @@
             color: white;
         }
     }
-
+    .div__descripcion{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        .consulta{
+            width: 50%;
+        }
+    }
+    
+    .mensaje{
+        width: 100%;
+    }
     .section__form {
-        margin-left: 8%;
-
+        margin-left: 1%;
+        .form{
+          width: 90%;
+          margin-left: 10%;
+        }
 
     }
 
-    .section__div__form__f {
-        margin-left: 10%;
-        display: grid;
-        grid-template-areas:
-            "nombre correo"
-            "direccion telefono"
-            "comentario comentario";
-    }
+
 
     .div__form input {
 
@@ -541,7 +550,7 @@
     .iframe__contacto {
         width: 350px;
         height: 220px;
-        margin-left: 8%;
+        margin-left: 11%;
 
         /*Footer Contacto*/
     }
@@ -568,11 +577,12 @@
     .grid__container__contacto {
         display: grid;
         grid-template-areas:
-            "header header"
-            "main aside"
-            "footer footer";
-        grid-template-columns: 70% 30%;
-        grid-template-rows: auto auto;
+            "header"
+            "main"
+            "aside"
+            "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
         margin-top: 3%;
     }
 
@@ -584,10 +594,10 @@
 
     /*Main Contacto*/
     .div__imagenPrincipal {
-        margin-left: 8%;
+        margin-left: 1%;
         display: flex;
         border: 2px solid white;
-        width: 70%;
+        width: 98%;
         height: 27vh;
         background-image: url(/images/index3.jpeg);
         background-position: center;
@@ -599,10 +609,18 @@
             color: white;
         }
     }
-
+    .consulta{
+        text-align: center;
+        width: 90%;
+    }
+    .mensaje{
+        width: 100%;
+    }
     .section__form {
         margin-left: 8%;
-
+        .form{
+          width: 100%;
+        }
 
     }
 

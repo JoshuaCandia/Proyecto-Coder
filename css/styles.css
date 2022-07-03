@@ -8112,20 +8112,20 @@ textarea.form-control-lg {
     height: 100%; }
   .grid__container__contacto {
     display: grid;
-    grid-template-areas: "header header" "main aside" "footer footer";
-    grid-template-columns: 70% 30%;
-    grid-template-rows: auto auto;
-    margin-top: 3%; }
+    grid-template-areas: "header" "main" "aside" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    margin-top: 0; }
   /*Header Contacto*/
   .header__contacto {
     grid-area: "header";
     margin-bottom: 7%; }
   /*Main Contacto*/
   .div__imagenPrincipal {
-    margin-left: 8%;
+    margin-left: 1%;
     display: flex;
     border: 2px solid white;
-    width: 70%;
+    width: 98%;
     height: 27vh;
     background-image: url(/images/index3.jpeg);
     background-position: center;
@@ -8134,12 +8134,20 @@ textarea.form-control-lg {
     padding-right: 20px; }
     .div__imagenPrincipal h1, .div__imagenPrincipal .h1 {
       color: white; }
+  .div__descripcion {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0; }
+    .div__descripcion .consulta {
+      width: 50%; }
+  .mensaje {
+    width: 100%; }
   .section__form {
-    margin-left: 8%; }
-  .section__div__form__f {
-    margin-left: 10%;
-    display: grid;
-    grid-template-areas: "nombre correo" "direccion telefono" "comentario comentario"; }
+    margin-left: 1%; }
+    .section__form .form {
+      width: 90%;
+      margin-left: 10%; }
   .div__form input {
     height: 30px;
     border-radius: 5px;
@@ -8166,7 +8174,7 @@ textarea.form-control-lg {
   .iframe__contacto {
     width: 350px;
     height: 220px;
-    margin-left: 8%;
+    margin-left: 11%;
     /*Footer Contacto*/ }
   .footer-contacto {
     grid-area: footer;
@@ -8182,9 +8190,9 @@ textarea.form-control-lg {
     height: 100%; }
   .grid__container__contacto {
     display: grid;
-    grid-template-areas: "header header" "main aside" "footer footer";
-    grid-template-columns: 70% 30%;
-    grid-template-rows: auto auto;
+    grid-template-areas: "header" "main" "aside" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
     margin-top: 3%; }
   /*Header Contacto*/
   .header__contacto {
@@ -8192,10 +8200,10 @@ textarea.form-control-lg {
     margin-bottom: 7%; }
   /*Main Contacto*/
   .div__imagenPrincipal {
-    margin-left: 8%;
+    margin-left: 1%;
     display: flex;
     border: 2px solid white;
-    width: 70%;
+    width: 98%;
     height: 27vh;
     background-image: url(/images/index3.jpeg);
     background-position: center;
@@ -8204,8 +8212,15 @@ textarea.form-control-lg {
     padding-right: 20px; }
     .div__imagenPrincipal h1, .div__imagenPrincipal .h1 {
       color: white; }
+  .consulta {
+    text-align: center;
+    width: 90%; }
+  .mensaje {
+    width: 100%; }
   .section__form {
     margin-left: 8%; }
+    .section__form .form {
+      width: 100%; }
   .section__div__form__f {
     margin-left: 10%;
     display: grid;
@@ -10607,7 +10622,7 @@ textarea.form-control-lg {
     .div__aside .div__aside__ul {
       list-style: none;
       padding: 0;
-      font-size: 25px;
+      font-size: 15px;
       text-align: start; }
     .div__aside .div__aside__ul__li {
       padding-top: 5rem;
@@ -10620,7 +10635,7 @@ textarea.form-control-lg {
       display: flex;
       justify-content: space-around; }
     .div__aside .icon__aside {
-      width: 50px;
+      width: 30px;
       background-color: white; }
     .div__aside .images__aside {
       margin-top: 20%; }
@@ -10632,15 +10647,14 @@ textarea.form-control-lg {
 @media (max-width: 1400px) and (max-width: 768px) {
   .div__aside {
     grid-area: aside;
-    margin-left: 15%;
     margin-top: 3%;
-    padding: 10px;
+    padding: 0;
     height: 100%;
-    width: 70%;
+    width: 50%;
     background-color: transparent; }
     .div__aside h2, .div__aside .h2 {
-      text-align: center;
-      color: #FFD743; }
+      text-align: start;
+      color: #565656; }
     .div__aside .div__aside__ul {
       list-style: none;
       padding: 0;
@@ -10691,10 +10705,6 @@ textarea.form-control-lg {
     .div__aside .div__aside__ul__li__a {
       text-decoration: none;
       color: #000; }
-    .div__aside .div__icons {
-      margin-top: 30%;
-      display: flex;
-      justify-content: space-around; }
     .div__aside .icon__aside {
       width: 40px;
       background-color: white; }
