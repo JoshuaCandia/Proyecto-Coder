@@ -9855,10 +9855,16 @@ textarea.form-control-lg {
 
 .navbar {
   background-color: #ef5349; }
-  .navbar .logo {
-    width: 150px;
-    height: 40px;
-    margin-bottom: 1%; }
+  .navbar .container__logo {
+    display: flex;
+    flex-direction: column; }
+    .navbar .container__logo .a__logo {
+      flex-direction: column; }
+    .navbar .container__logo .div__logo {
+      width: 15%;
+      flex-direction: column; }
+      .navbar .container__logo .div__logo .logo {
+        width: 100%; }
   .navbar .nav-link {
     color: #ffffff; }
 

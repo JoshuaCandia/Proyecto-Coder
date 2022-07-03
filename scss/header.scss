@@ -1,15 +1,29 @@
-.header{
+.header {
     grid-area: header;
 }
-.navbar{
+
+.navbar {
 
     background-color: $palette-color1;
-    .logo{
-        width: 150px;
-        height: 40px;
-        margin-bottom: 1%;
+.container__logo{
+    display: flex;
+    flex-direction: column;
+    .a__logo{
+        flex-direction: column;
     }
-    .nav-link{
+    .div__logo {
+        
+        width: 15%;
+        flex-direction: column;
+        .logo {
+            width: 100%;
+        }
+    }
+}
+
+   
+
+    .nav-link {
         color: $palette-color5;
     }
 }
