@@ -929,8 +929,11 @@ $font-title: #000;
     }
 
     .section__parrafos {
-        width: 90%;
+        width: 95%;
         text-align: start;
+        margin-top: 10%;
+        padding: 5%;
+        border: #ef5349 2px double;
     }
 
     .section__parrafos {
@@ -942,6 +945,7 @@ $font-title: #000;
 
     .anchor__presupuesto {
         text-decoration: none;
+
     
     
         .button__presupuesto {

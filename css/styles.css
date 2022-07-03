@@ -9669,8 +9669,11 @@ textarea.form-control-lg {
     .div__titulo h1, .div__titulo .h1 {
       color: #fff; }
   .section__parrafos {
-    width: 90%;
-    text-align: start; }
+    width: 95%;
+    text-align: start;
+    margin-top: 10%;
+    padding: 5%;
+    border: #ef5349 2px double; }
   .section__parrafos h2, .section__parrafos .h2 {
     text-align: center;
     color: #000; }
@@ -9862,6 +9865,8 @@ textarea.form-control-lg {
     flex-direction: row;
     justify-content: space-between; }
     .navbar .container__logo .a__logo {
+      display: flex;
+      justify-content: center;
       flex-direction: column;
       width: 15%; }
     .navbar .container__logo .div__logo {
@@ -9872,6 +9877,33 @@ textarea.form-control-lg {
       width: 20%; }
     .navbar .container__logo .nav-link {
       color: #ffffff; }
+
+@media (min-width: 992px) {
+  .div__icons {
+    display: none; } }
+
+@media (max-width: 991px) {
+  .div__icons {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 5%; }
+    .div__icons a {
+      text-decoration: none; }
+    .div__icons .youtube {
+      width: 100%; }
+      .div__icons .youtube img {
+        width: 75%; }
+    .div__icons .instagram {
+      width: 75%; }
+      .div__icons .instagram img {
+        width: 85%; }
+    .div__icons .facebook {
+      width: 75%; }
+      .div__icons .facebook img {
+        width: 85%; } }
 
 .loader__png {
   width: 100%;
