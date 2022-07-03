@@ -9854,6 +9854,7 @@ textarea.form-control-lg {
   grid-area: header; }
 
 .navbar {
+  height: 130%;
   background-color: #ef5349; }
   .navbar .container__logo {
     width: 100%;
@@ -11042,7 +11043,8 @@ body {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-left: 10%; }
+        padding-left: 10%;
+        text-align: center; }
         .body__index .section__index__top .div__p h1, .body__index .section__index__top .div__p .h1 {
           color: #ef5349;
           font-size: 50px;
