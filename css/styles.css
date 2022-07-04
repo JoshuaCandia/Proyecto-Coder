@@ -9741,6 +9741,13 @@ textarea.form-control-lg {
     font-size: 15px;
     text-align: center; } }
 
+@media (max-width: 576px) {
+  .none {
+    display: none; }
+  .card {
+    margin-left: 1%;
+    margin-bottom: 1%; } }
+
 /*Header and Footer*/
 /*Paleta de Colores*/
 .header {

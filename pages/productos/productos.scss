@@ -96,4 +96,12 @@ $border-productos:2px solid white;
     }
 }
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .none{
+        display: none;
+    }
+    .card{
+        margin-left: 1%;
+        margin-bottom: 1%;
+    }
+}
