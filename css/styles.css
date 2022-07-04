@@ -9048,7 +9048,7 @@ textarea.form-control-lg {
 
 .footer__servicios {
   grid-area: footer;
-  margin-top: 5%; }
+  margin-top: 15%; }
   .footer__servicios p {
     margin-left: 50px;
     color: #222; }
@@ -9711,6 +9711,10 @@ textarea.form-control-lg {
     grid-area: main; }
   .main__productos .padding-top {
     padding-top: 15%; }
+  .main__productos .card {
+    width: 100px;
+    margin-left: 1%;
+    margin-bottom: 1%; }
 
 /*Css media query productos*/
 @media (max-width: 768px) {
@@ -9742,8 +9746,6 @@ textarea.form-control-lg {
     text-align: center; } }
 
 @media (max-width: 576px) {
-  .none {
-    display: none; }
   .card {
     margin-left: 1%;
     margin-bottom: 1%; } }
