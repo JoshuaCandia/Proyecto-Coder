@@ -7821,9 +7821,9 @@ textarea.form-control-lg {
 
 .grid__container__contacto {
   display: grid;
-  grid-template-areas: "header header" "main aside" "footer footer";
-  grid-template-columns: 70% 30%;
-  grid-template-rows: auto auto; }
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: auto; }
 
 /*Header Contacto*/
 .header__contacto {
@@ -7833,10 +7833,10 @@ textarea.form-control-lg {
 /*Main Contacto*/
 .div__imagenPrincipal {
   margin-top: 5%;
-  margin-left: 8%;
+  margin-left: 5%;
   display: flex;
   border: 2px solid white;
-  width: 70%;
+  width: 71%;
   height: 27vh;
   background-image: url(/images/index3.jpeg);
   background-position: center;
@@ -7846,45 +7846,21 @@ textarea.form-control-lg {
   .div__imagenPrincipal h1, .div__imagenPrincipal .h1 {
     color: white; }
 
-.section__form {
-  margin-left: 8%; }
-
-.section__div__form__f {
-  margin-left: 10%;
-  display: grid;
-  grid-template-areas: "nombre correo" "direccion telefono" "comentario comentario"; }
-
-.div__form input {
-  height: 30px;
-  border-radius: 5px;
-  border: none; }
-
-.input__submit {
-  margin-left: 2%;
-  border-radius: 2px;
-  border: 1px solid #000;
-  width: 200px;
-  height: 50px;
-  margin-top: 10px;
-  margin-bottom: 50px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: transparent;
-  color: #000; }
-
-.input__submit:hover {
-  background-color: #ff4e00;
-  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
-  cursor: pointer; }
-
-/*Aside Contacto*/
-.aside {
-  grid-area: aside; }
+.form {
+  margin-left: 5%; }
 
 /*iframe contacto*/
+.iframe__contact {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
 .iframe__contacto {
-  width: 700px;
-  height: 300px;
-  margin-left: 8%;
+  width: 50%;
+  height: 200px;
+  margin-left: 5%;
+  margin-top: 15%;
+  margin-bottom: 5%;
   /*Footer Contacto*/ }
 
 .footer-contacto {
@@ -7902,20 +7878,20 @@ textarea.form-control-lg {
     height: 100%; }
   .grid__container__contacto {
     display: grid;
-    grid-template-areas: "header header" "main aside" "footer footer";
-    grid-template-columns: 70% 30%;
-    grid-template-rows: auto auto;
-    margin-top: 3%; }
+    grid-template-areas: "header" "main" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto; }
   /*Header Contacto*/
   .header__contacto {
     grid-area: "header";
     margin-bottom: 7%; }
   /*Main Contacto*/
   .div__imagenPrincipal {
-    margin-left: 8%;
+    margin-top: 5%;
+    margin-left: 1%;
     display: flex;
     border: 2px solid white;
-    width: 70%;
+    width: 98%;
     height: 27vh;
     background-image: url(/images/index3.jpeg);
     background-position: center;
@@ -7924,40 +7900,22 @@ textarea.form-control-lg {
     padding-right: 20px; }
     .div__imagenPrincipal h1, .div__imagenPrincipal .h1 {
       color: white; }
-  .section__form {
-    margin-left: 8%; }
-  .section__div__form__f {
-    margin-left: 10%;
-    display: grid;
-    grid-template-areas: "nombre correo" "direccion telefono" "comentario comentario"; }
-  .div__form input {
-    height: 30px;
-    border-radius: 5px;
-    border: none; }
-  .input__submit {
-    margin-left: 2%;
-    border-radius: 2px;
-    border: 1px solid #000;
-    width: 200px;
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: transparent;
-    color: #000; }
-  .input__submit:hover {
-    background-color: #ff4e00;
-    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
-    cursor: pointer; }
-  /*Aside Contacto*/
-  .aside {
-    grid-area: aside; }
+  .form {
+    margin-left: 1%; }
   /*iframe contacto*/
+  .iframe__contact {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
   .iframe__contacto {
-    width: 700px;
-    height: 300px;
-    margin-left: 8%;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-bottom: 5%;
     /*Footer Contacto*/ }
+  .row {
+    margin: 0;
+    padding: 0; }
   .footer-contacto {
     grid-area: footer;
     margin-top: 10%;
@@ -7972,20 +7930,20 @@ textarea.form-control-lg {
     height: 100%; }
   .grid__container__contacto {
     display: grid;
-    grid-template-areas: "header header" "main aside" "footer footer";
-    grid-template-columns: 70% 30%;
-    grid-template-rows: auto auto;
-    margin-top: 3%; }
+    grid-template-areas: "header" "main" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto; }
   /*Header Contacto*/
   .header__contacto {
     grid-area: "header";
     margin-bottom: 7%; }
   /*Main Contacto*/
   .div__imagenPrincipal {
-    margin-left: 8%;
+    margin-top: 5%;
+    margin-left: 1%;
     display: flex;
     border: 2px solid white;
-    width: 70%;
+    width: 98%;
     height: 27vh;
     background-image: url(/images/index3.jpeg);
     background-position: center;
@@ -7994,40 +7952,22 @@ textarea.form-control-lg {
     padding-right: 20px; }
     .div__imagenPrincipal h1, .div__imagenPrincipal .h1 {
       color: white; }
-  .section__form {
-    margin-left: 8%; }
-  .section__div__form__f {
-    margin-left: 10%;
-    display: grid;
-    grid-template-areas: "nombre correo" "direccion telefono" "comentario comentario"; }
-  .div__form input {
-    height: 30px;
-    border-radius: 5px;
-    border: none; }
-  .input__submit {
-    margin-left: 2%;
-    border-radius: 2px;
-    border: 1px solid #000;
-    width: 200px;
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: transparent;
-    color: #000; }
-  .input__submit:hover {
-    background-color: #ff4e00;
-    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
-    cursor: pointer; }
-  /*Aside Contacto*/
-  .aside {
-    grid-area: aside; }
+  .form {
+    margin-left: 1%; }
   /*iframe contacto*/
+  .iframe__contact {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
   .iframe__contacto {
-    width: 600px;
-    height: 300px;
-    margin-left: 8%;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-bottom: 5%;
     /*Footer Contacto*/ }
+  .row {
+    margin: 0;
+    padding: 0; }
   .footer-contacto {
     grid-area: footer;
     margin-top: 10%;
@@ -8042,20 +7982,20 @@ textarea.form-control-lg {
     height: 100%; }
   .grid__container__contacto {
     display: grid;
-    grid-template-areas: "header header" "main aside" "footer footer";
-    grid-template-columns: 70% 30%;
-    grid-template-rows: auto auto;
-    margin-top: 3%; }
+    grid-template-areas: "header" "main" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto; }
   /*Header Contacto*/
   .header__contacto {
     grid-area: "header";
     margin-bottom: 7%; }
   /*Main Contacto*/
   .div__imagenPrincipal {
-    margin-left: 8%;
+    margin-top: 5%;
+    margin-left: 1%;
     display: flex;
     border: 2px solid white;
-    width: 70%;
+    width: 98%;
     height: 27vh;
     background-image: url(/images/index3.jpeg);
     background-position: center;
@@ -8064,40 +8004,22 @@ textarea.form-control-lg {
     padding-right: 20px; }
     .div__imagenPrincipal h1, .div__imagenPrincipal .h1 {
       color: white; }
-  .section__form {
-    margin-left: 8%; }
-  .section__div__form__f {
-    margin-left: 10%;
-    display: grid;
-    grid-template-areas: "nombre correo" "direccion telefono" "comentario comentario"; }
-  .div__form input {
-    height: 30px;
-    border-radius: 5px;
-    border: none; }
-  .input__submit {
-    margin-left: 2%;
-    border-radius: 2px;
-    border: 1px solid #000;
-    width: 200px;
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: transparent;
-    color: #000; }
-  .input__submit:hover {
-    background-color: #ff4e00;
-    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
-    cursor: pointer; }
-  /*Aside Contacto*/
-  .aside {
-    grid-area: aside; }
+  .form {
+    margin-left: 1%; }
   /*iframe contacto*/
+  .iframe__contact {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
   .iframe__contacto {
-    width: 500px;
-    height: 250px;
-    margin-left: 8%;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-bottom: 5%;
     /*Footer Contacto*/ }
+  .row {
+    margin: 0;
+    padding: 0; }
   .footer-contacto {
     grid-area: footer;
     margin-top: 10%;
@@ -8112,16 +8034,16 @@ textarea.form-control-lg {
     height: 100%; }
   .grid__container__contacto {
     display: grid;
-    grid-template-areas: "header" "main" "aside" "footer";
+    grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: auto;
-    margin-top: 0; }
+    grid-template-rows: auto; }
   /*Header Contacto*/
   .header__contacto {
     grid-area: "header";
     margin-bottom: 7%; }
   /*Main Contacto*/
   .div__imagenPrincipal {
+    margin-top: 5%;
     margin-left: 1%;
     display: flex;
     border: 2px solid white;
@@ -8134,48 +8056,22 @@ textarea.form-control-lg {
     padding-right: 20px; }
     .div__imagenPrincipal h1, .div__imagenPrincipal .h1 {
       color: white; }
-  .div__descripcion {
+  .form {
+    margin-left: 1%; }
+  /*iframe contacto*/
+  .iframe__contact {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center; }
+  .iframe__contacto {
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    /*Footer Contacto*/ }
+  .row {
     margin: 0;
     padding: 0; }
-    .div__descripcion .consulta {
-      width: 50%; }
-  .mensaje {
-    width: 100%; }
-  .section__form {
-    margin-left: 1%; }
-    .section__form .form {
-      width: 90%;
-      margin-left: 10%; }
-  .div__form input {
-    height: 30px;
-    border-radius: 5px;
-    border: none; }
-  .input__submit {
-    margin-left: 2%;
-    border-radius: 2px;
-    border: 1px solid #000;
-    width: 200px;
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: transparent;
-    color: #000; }
-  .input__submit:hover {
-    background-color: #ff4e00;
-    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
-    cursor: pointer; }
-  /*Aside Contacto*/
-  .aside {
-    grid-area: aside; }
-  /*iframe contacto*/
-  .iframe__contacto {
-    width: 350px;
-    height: 220px;
-    margin-left: 11%;
-    /*Footer Contacto*/ }
   .footer-contacto {
     grid-area: footer;
     margin-top: 10%;
@@ -8190,16 +8086,16 @@ textarea.form-control-lg {
     height: 100%; }
   .grid__container__contacto {
     display: grid;
-    grid-template-areas: "header" "main" "aside" "footer";
+    grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: auto;
-    margin-top: 3%; }
+    grid-template-rows: auto; }
   /*Header Contacto*/
   .header__contacto {
     grid-area: "header";
     margin-bottom: 7%; }
   /*Main Contacto*/
   .div__imagenPrincipal {
+    margin-top: 5%;
     margin-left: 1%;
     display: flex;
     border: 2px solid white;
@@ -8212,47 +8108,22 @@ textarea.form-control-lg {
     padding-right: 20px; }
     .div__imagenPrincipal h1, .div__imagenPrincipal .h1 {
       color: white; }
-  .consulta {
-    text-align: center;
-    width: 90%; }
-  .mensaje {
-    width: 100%; }
-  .section__form {
-    margin-left: 8%; }
-    .section__form .form {
-      width: 100%; }
-  .section__div__form__f {
-    margin-left: 10%;
-    display: grid;
-    grid-template-areas: "nombre correo" "direccion telefono" "comentario comentario"; }
-  .div__form input {
-    height: 30px;
-    border-radius: 5px;
-    border: none; }
-  .input__submit {
-    margin-left: 2%;
-    border-radius: 2px;
-    border: 1px solid #000;
-    width: 200px;
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: transparent;
-    color: #000; }
-  .input__submit:hover {
-    background-color: #ff4e00;
-    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
-    cursor: pointer; }
-  /*Aside Contacto*/
-  .aside {
-    grid-area: aside; }
+  .form {
+    margin-left: 5%; }
   /*iframe contacto*/
+  .iframe__contact {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
   .iframe__contacto {
-    width: 300px;
-    height: 200px;
-    margin-left: 8%;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-bottom: 5%;
     /*Footer Contacto*/ }
+  .row {
+    margin: 0;
+    padding: 0; }
   .footer-contacto {
     grid-area: footer;
     margin-top: 10%;
@@ -8435,7 +8306,7 @@ textarea.form-control-lg {
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-areas: 'header header' 'main aside' 'footer footer';
+    grid-template-areas: "header header" "main aside" "footer footer";
     grid-template-columns: 70% 30%;
     grid-template-rows: auto auto; }
   .body__empresa .header__index {
@@ -8469,7 +8340,7 @@ textarea.form-control-lg {
       width: 100%;
       height: 24%;
       text-align: center;
-      border-left: #FFD743 5px solid;
+      border-left: #ffd743 5px solid;
       border-top-left-radius: 20px; }
     .body__empresa .main__empresa .main__section__empresa-2 {
       display: flex;
@@ -8483,7 +8354,7 @@ textarea.form-control-lg {
         padding-right: 50px;
         margin-top: 10px;
         background-color: transparent;
-        border: 3px solid #FFD743;
+        border: 3px solid #ffd743;
         border-radius: 5%;
         cursor: pointer; }
         .body__empresa .main__empresa .main__section__empresa-2 .button__empresa a {
@@ -8494,7 +8365,7 @@ textarea.form-control-lg {
         text-align: center; }
     .body__empresa .main__empresa .button__empresa:hover {
       border: 3px solid #000;
-      background: #FFD743;
+      background: #ffd743;
       text-decoration: none;
       filter: opacity(0.7);
       cursor: pointer; }
@@ -8508,10 +8379,10 @@ textarea.form-control-lg {
       margin-top: 20px;
       margin-bottom: 20px; }
     .body__empresa .main__empresa .div__parrafo-1 {
-      border-left: #FFD743 5px solid;
+      border-left: #ffd743 5px solid;
       border-top-left-radius: 20px; }
     .body__empresa .main__empresa .div__parrafo-2 {
-      border-left: #FFD743 5px solid;
+      border-left: #ffd743 5px solid;
       border-top-left-radius: 20px; }
   .body__empresa .images__aside {
     margin-top: 20%; }
@@ -8534,7 +8405,7 @@ textarea.form-control-lg {
       display: grid;
       width: 100%;
       height: 100%;
-      grid-template-areas: 'header header' 'main aside' 'footer footer';
+      grid-template-areas: "header header" "main aside" "footer footer";
       grid-template-columns: 70% 30%;
       grid-template-rows: auto auto; }
     .body__empresa .header__index {
@@ -8568,7 +8439,7 @@ textarea.form-control-lg {
         width: 70%;
         height: 14%;
         text-align: center;
-        border-left: #FFD743 5px solid;
+        border-left: #ffd743 5px solid;
         border-top-left-radius: 20px; }
       .body__empresa .main__empresa .main__section__empresa-2 {
         display: flex;
@@ -8584,7 +8455,7 @@ textarea.form-control-lg {
           padding-right: 50px;
           margin-top: 10px;
           background-color: transparent;
-          border: 3px solid #FFD743;
+          border: 3px solid #ffd743;
           border-radius: 5%;
           cursor: pointer; }
           .body__empresa .main__empresa .main__section__empresa-2 .button__empresa a {
@@ -8596,7 +8467,7 @@ textarea.form-control-lg {
           text-align: start; }
       .body__empresa .main__empresa .button__empresa:hover {
         border: 3px solid #000;
-        background: #FFD743;
+        background: #ffd743;
         text-decoration: none;
         filter: opacity(0.7);
         cursor: pointer; }
@@ -8612,11 +8483,11 @@ textarea.form-control-lg {
         margin-top: 10px;
         margin-bottom: 50px;
         display: block;
-        border-left: #FFD743 5px solid;
+        border-left: #ffd743 5px solid;
         border-top-left-radius: 20px; }
       .body__empresa .main__empresa .div__parrafo-2 {
         display: block;
-        border-left: #FFD743 5px solid;
+        border-left: #ffd743 5px solid;
         border-top-left-radius: 20px; }
       .body__empresa .main__empresa h3, .body__empresa .main__empresa .h3 {
         text-align: start; }
@@ -8640,7 +8511,7 @@ textarea.form-control-lg {
       display: grid;
       width: 100%;
       height: 100%;
-      grid-template-areas: 'header header' 'main aside' 'footer footer';
+      grid-template-areas: "header header" "main aside" "footer footer";
       grid-template-columns: 70% 30%;
       grid-template-rows: auto auto; }
     .body__empresa .header__index {
@@ -8674,7 +8545,7 @@ textarea.form-control-lg {
         width: 70%;
         height: 17%;
         text-align: center;
-        border-left: #FFD743 5px solid;
+        border-left: #ffd743 5px solid;
         border-top-left-radius: 20px; }
       .body__empresa .main__empresa .main__section__empresa-2 {
         display: flex;
@@ -8723,7 +8594,7 @@ textarea.form-control-lg {
             position: absolute;
             top: -2px;
             transform: translate(8px, 8px);
-            transition: transform .2s ease-out;
+            transition: transform 0.2s ease-out;
             z-index: -1; }
           .body__empresa .main__empresa .main__section__empresa-2 .button .anchor__presupuesto .button__presupuesto:hover:after {
             transform: translate(0, 0); }
@@ -8738,7 +8609,7 @@ textarea.form-control-lg {
           text-align: start; }
       .body__empresa .main__empresa .button__empresa:hover {
         border: 3px solid #000;
-        background: #FFD743;
+        background: #ffd743;
         text-decoration: none;
         filter: opacity(0.7);
         cursor: pointer; }
@@ -8754,11 +8625,11 @@ textarea.form-control-lg {
         margin-top: 10px;
         margin-bottom: 50px;
         display: block;
-        border-left: #FFD743 5px solid;
+        border-left: #ffd743 5px solid;
         border-top-left-radius: 20px; }
       .body__empresa .main__empresa .div__parrafo-2 {
         display: block;
-        border-left: #FFD743 5px solid;
+        border-left: #ffd743 5px solid;
         border-top-left-radius: 20px; }
       .body__empresa .main__empresa h3, .body__empresa .main__empresa .h3 {
         text-align: start; }
@@ -8782,7 +8653,7 @@ textarea.form-control-lg {
       display: grid;
       width: 100%;
       height: 100%;
-      grid-template-areas: 'header header' 'main aside' 'footer footer';
+      grid-template-areas: "header header" "main aside" "footer footer";
       grid-template-columns: 70% 30%;
       grid-template-rows: auto auto; }
     .body__empresa .header__index {
@@ -8816,7 +8687,7 @@ textarea.form-control-lg {
         width: 70%;
         height: 17%;
         text-align: center;
-        border-left: #FFD743 5px solid;
+        border-left: #ffd743 5px solid;
         border-top-left-radius: 20px; }
       .body__empresa .main__empresa .main__section__empresa-2 {
         display: flex;
@@ -8831,7 +8702,7 @@ textarea.form-control-lg {
           padding-left: 50px;
           margin-top: 25px;
           background-color: transparent;
-          border: 3px solid #FFD743;
+          border: 3px solid #ffd743;
           border-radius: 5%;
           cursor: pointer; }
           .body__empresa .main__empresa .main__section__empresa-2 .button__empresa a {
@@ -8843,7 +8714,7 @@ textarea.form-control-lg {
           text-align: start; }
       .body__empresa .main__empresa .button__empresa:hover {
         border: 3px solid #000;
-        background: #FFD743;
+        background: #ffd743;
         text-decoration: none;
         filter: opacity(0.7);
         cursor: pointer; }
@@ -8859,11 +8730,11 @@ textarea.form-control-lg {
         margin-top: 10px;
         margin-bottom: 50px;
         display: block;
-        border-left: #FFD743 5px solid;
+        border-left: #ffd743 5px solid;
         border-top-left-radius: 20px; }
       .body__empresa .main__empresa .div__parrafo-2 {
         display: block;
-        border-left: #FFD743 5px solid;
+        border-left: #ffd743 5px solid;
         border-top-left-radius: 20px; }
       .body__empresa .main__empresa h3, .body__empresa .main__empresa .h3 {
         text-align: start; }
@@ -8885,19 +8756,21 @@ textarea.form-control-lg {
     /*Footer Empresa */ }
     .body__empresa .grid__container__empresa {
       display: grid;
+      justify-content: center;
+      align-items: center;
       width: 100%;
       height: 100%;
-      grid-template-areas: 'header' 'main' 'aside' 'footer';
+      grid-template-areas: "header" "main" "aside" "footer";
       grid-template-columns: 100%;
       grid-template-rows: auto; }
     .body__empresa .header__index {
       grid-area: header; }
     .body__empresa .main__empresa {
       margin-top: 3%;
-      margin-left: 5%;
+      margin-left: 20%;
       display: flex;
       grid-area: main;
-      width: 90%;
+      width: 80%;
       height: 100%; }
       .body__empresa .main__empresa .button {
         display: none; }
@@ -8923,7 +8796,7 @@ textarea.form-control-lg {
         width: 70%;
         height: 17%;
         text-align: center;
-        border-left: #FFD743 5px solid;
+        border-left: #ffd743 5px solid;
         border-top-left-radius: 20px; }
       .body__empresa .main__empresa .main__section__empresa-2 {
         display: flex;
@@ -8936,6 +8809,9 @@ textarea.form-control-lg {
           .body__empresa .main__empresa .main__section__empresa-2 .button__empresa a {
             text-decoration: none;
             color: #000; }
+      .body__empresa .main__empresa h3, .body__empresa .main__empresa .h3 {
+        margin-top: 10%;
+        margin-bottom: 5%; }
     .body__empresa h3, .body__empresa .h3 {
       color: #000;
       text-align: start;
@@ -8950,11 +8826,11 @@ textarea.form-control-lg {
         margin-top: 10px;
         margin-bottom: 50px;
         display: block;
-        border-left: #FFD743 5px solid;
+        border-left: #ffd743 5px solid;
         border-top-left-radius: 20px; }
       .body__empresa h3 .div__parrafo-2, .body__empresa .h3 .div__parrafo-2 {
         display: block;
-        border-left: #FFD743 5px solid;
+        border-left: #ffd743 5px solid;
         border-top-left-radius: 20px; }
       .body__empresa h3 h3, .body__empresa .h3 h3, .body__empresa h3 .h3, .body__empresa .h3 .h3 {
         text-align: start; }
@@ -8978,42 +8854,41 @@ textarea.form-control-lg {
       display: grid;
       width: 100%;
       height: 100%;
-      grid-template-areas: 'header' 'main' 'aside' 'footer';
+      grid-template-areas: "header" "main" "aside" "footer";
       grid-template-columns: 100%;
       grid-template-rows: auto; }
     .body__empresa .header__index {
       grid-area: header; }
     .body__empresa .main__empresa {
       margin-top: 3%;
-      margin-left: 5%;
+      padding-left: 0;
+      padding-right: 10%;
       display: flex;
       grid-area: main;
-      width: 90%;
-      height: 60%; }
+      width: 80%;
+      height: 100%; }
       .body__empresa .main__empresa .main__section__empresa {
-        width: 100%; }
+        width: 93%; }
       .body__empresa .main__empresa .main__section__div__empresa {
         border: 1px solid #ef5349;
         height: 17vh;
-        width: 80%;
+        width: 100%;
         background-image: url(/images/index2.jpeg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         justify-content: end;
         align-items: flex-end;
-        display: flex;
-        padding-right: 10px; }
+        display: flex; }
         .body__empresa .main__empresa .main__section__div__empresa p {
           color: white;
           font-size: 20px; }
       .body__empresa .main__empresa .main__p {
         margin-top: 50px;
-        width: 60%;
-        height: 35%;
-        text-align: center;
-        border-left: #FFD743 5px solid;
-        border-top-left-radius: 20px; }
+        width: 100%;
+        height: 50%;
+        text-align: start;
+        border: none; }
       .body__empresa .main__empresa .main__section__empresa-2 {
         display: flex;
         justify-content: space-around;
@@ -9031,11 +8906,11 @@ textarea.form-control-lg {
         margin-top: 10px;
         margin-bottom: 50px;
         display: block;
-        border-left: #FFD743 5px solid;
+        border-left: #ffd743 5px solid;
         border-top-left-radius: 20px; }
       .body__empresa .main__empresa .div__parrafo-2 {
         display: block;
-        border-left: #FFD743 5px solid;
+        border-left: #ffd743 5px solid;
         border-top-left-radius: 20px; }
       .body__empresa .main__empresa h3, .body__empresa .main__empresa .h3 {
         text-align: start; }
@@ -10647,14 +10522,19 @@ textarea.form-control-lg {
 @media (max-width: 1400px) and (max-width: 768px) {
   .div__aside {
     grid-area: aside;
-    margin-top: 3%;
+    margin: 0;
     padding: 0;
-    height: 100%;
+    margin-top: 3%;
+    margin-left: 20%;
+    height: 0;
     width: 50%;
     background-color: transparent; }
     .div__aside h2, .div__aside .h2 {
       text-align: start;
       color: #565656; }
+    .div__aside .aside {
+      margin: 0;
+      padding: 0; }
     .div__aside .div__aside__ul {
       list-style: none;
       padding: 0;
@@ -10687,7 +10567,7 @@ textarea.form-control-lg {
     margin-top: 3%;
     padding: 10px;
     height: 100%;
-    width: 100%;
+    width: 80%;
     background-color: transparent; }
     .div__aside h2, .div__aside .h2 {
       font-size: 20px;

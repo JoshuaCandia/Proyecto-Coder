@@ -245,9 +245,11 @@ $font-title-p:15px;
     @media (max-width: 768px) {
         .div__aside {
             grid-area: aside;
+            margin: 0;
+            padding: 0;
             margin-top: 3%;
-            padding:0;
-            height: 100%;
+            margin-left: 20%;
+            height: 0;
             width: 50%;
             background-color: transparent;
             
@@ -255,8 +257,10 @@ $font-title-p:15px;
                 text-align: start;
                 color: $palette-color4;
             }
-
-
+            .aside{
+                margin: 0;
+                padding: 0;
+            }
             .div__aside__ul {
                 list-style: none;
                 padding: 0;
@@ -310,7 +314,7 @@ $font-title-p:15px;
             margin-top: 3%;
             padding: 10px;
             height: 100%;
-            width: 100%;
+            width: 80%;
             background-color: transparent;
 
             h2 {
