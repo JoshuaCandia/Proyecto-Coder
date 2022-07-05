@@ -8332,7 +8332,7 @@ textarea.form-control-lg {
       align-items: flex-end;
       display: flex;
       padding-right: 10px; }
-      .body__empresa .main__empresa .main__section__div__empresa p {
+      .body__empresa .main__empresa .main__section__div__empresa h1, .body__empresa .main__empresa .main__section__div__empresa .h1 {
         color: white;
         font-size: 20px; }
     .body__empresa .main__empresa .main__p {
@@ -8431,7 +8431,7 @@ textarea.form-control-lg {
         align-items: flex-end;
         display: flex;
         padding-right: 10px; }
-        .body__empresa .main__empresa .main__section__div__empresa p {
+        .body__empresa .main__empresa .main__section__div__empresa h1, .body__empresa .main__empresa .main__section__div__empresa .h1 {
           color: white;
           font-size: 20px; }
       .body__empresa .main__empresa .main__p {
@@ -8537,7 +8537,7 @@ textarea.form-control-lg {
         align-items: flex-end;
         display: flex;
         padding-right: 10px; }
-        .body__empresa .main__empresa .main__section__div__empresa p {
+        .body__empresa .main__empresa .main__section__div__empresa h1, .body__empresa .main__empresa .main__section__div__empresa .h1 {
           color: white;
           font-size: 20px; }
       .body__empresa .main__empresa .main__p {
@@ -8679,7 +8679,7 @@ textarea.form-control-lg {
         align-items: flex-end;
         display: flex;
         padding-right: 10px; }
-        .body__empresa .main__empresa .main__section__div__empresa p {
+        .body__empresa .main__empresa .main__section__div__empresa h1, .body__empresa .main__empresa .main__section__div__empresa .h1 {
           color: white;
           font-size: 20px; }
       .body__empresa .main__empresa .main__p {
@@ -8788,7 +8788,7 @@ textarea.form-control-lg {
         align-items: flex-end;
         display: flex;
         padding-right: 10px; }
-        .body__empresa .main__empresa .main__section__div__empresa p {
+        .body__empresa .main__empresa .main__section__div__empresa h1, .body__empresa .main__empresa .main__section__div__empresa .h1 {
           color: white;
           font-size: 20px; }
       .body__empresa .main__empresa .main__p {
@@ -8880,7 +8880,7 @@ textarea.form-control-lg {
         justify-content: end;
         align-items: flex-end;
         display: flex; }
-        .body__empresa .main__empresa .main__section__div__empresa p {
+        .body__empresa .main__empresa .main__section__div__empresa h1, .body__empresa .main__empresa .main__section__div__empresa .h1 {
           color: white;
           font-size: 20px; }
       .body__empresa .main__empresa .main__p {
@@ -9802,6 +9802,35 @@ textarea.form-control-lg {
       width: 75%; }
       .div__icons .facebook img {
         width: 85%; } }
+
+@media (max-width: 576px) {
+  .header {
+    grid-area: header; }
+  .navbar {
+    height: 130%;
+    background-color: #ef5349; }
+    .navbar .container__logo {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .navbar .container__logo .a__logo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 25%; }
+      .navbar .container__logo .div__logo {
+        width: 100%; }
+        .navbar .container__logo .div__logo .logo {
+          width: 100%; }
+      .navbar .container__logo .hamburguer {
+        width: 20%; }
+      .navbar .container__logo .nav-link {
+        color: #ffffff; } }
+
+@media (max-width: 576px) and (min-width: 992px) {
+  .div__icons {
+    display: none; } }
 
 .loader__png {
   width: 100%;
