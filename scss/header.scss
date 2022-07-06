@@ -30,13 +30,16 @@
         .hamburguer {
             width: 20%;
         }
-
+        
         .nav-link {
             color: $palette-color5;
+           
         }
 
     }
-
+    .nav-item{
+        font-size: 20px;
+    }
 
 }
 

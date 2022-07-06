@@ -9775,6 +9775,8 @@ textarea.form-control-lg {
       width: 20%; }
     .navbar .container__logo .nav-link {
       color: #ffffff; }
+  .navbar .nav-item {
+    font-size: 20px; }
 
 @media (min-width: 992px) {
   .div__icons {
